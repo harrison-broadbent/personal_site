@@ -1,0 +1,11 @@
+<div id="menu">
+	<span class="title">Harrison Broadbent</span>
+	<ul>
+		<% Dir.entries('./source/pages')[2..-1].sort.each do |page| %>
+			<li>
+				<% page_name_components = page.split(".") %>
+				<%= link_to page_name_components[0].capitalize, "/pages/#{page_name_components[0,2].join('.')}" %>
+			</li>
+		<% end %>
+	</ul>
+</div>
