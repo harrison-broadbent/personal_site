@@ -13,9 +13,6 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-# Include NETLIFY Redirects file for pretty URLS
-import_file File.expand_path("_redirects", root), "/_redirects"
-
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
