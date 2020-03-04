@@ -12,8 +12,10 @@
   </head>
   <body>
     <%= partial 'partials/left'%>
-    <div id="content">
-      <%= yield %>
+    <div id="content-container">
+      <div id="content">
+        <%= yield %>
+      </div>
     </div>
     <%= partial 'partials/menu'%>
   </body>

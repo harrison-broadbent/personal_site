@@ -26,7 +26,10 @@ a {
   width: 200px;
 }
 
-#content {
+#content-container {
+  #content {
+    max-width: 500px;
+  }
   flex-grow: 1;
 }
 
