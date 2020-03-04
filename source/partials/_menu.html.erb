@@ -1,6 +1,7 @@
 <div id="menu">
 	<span class="title">Harrison Broadbent</span>
 	<ul>
+		<%= puts Dir.pwd %>
 		<% Dir.entries('source/pages')[2..-1].sort.each do |page| %>
 			<li>
 				<% page_name_components = page.split(".") %>
