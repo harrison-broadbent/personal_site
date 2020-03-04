@@ -2,11 +2,14 @@
 	<span class="title">Harrison Broadbent</span>
 	<ul>
 		<%= puts Dir.pwd %>
-		<% Dir.entries('source/pages')[2..-1].sort.each do |page| %>
-			<li>
-				<% page_name_components = page.split(".") %>
-				<%= link_to page_name_components[0].to_s.capitalize, "/pages/#{page_name_components[0,2].join('.')}" %>
-			</li>
+		<% Dir.entries('source/pages').sort.each do |page| %>
+			<%# Regex to filter out "." and ".." directories found by Dir.entries %>
+			<% if not page =~ /^[.]+/ %>
+				<li>
+					<% page_name_components = page.split(".") %>
+					<%= link_to page_name_components[0].to_s.capitalize, "/pages/#{page_name_components[0,2].join('.')}" %>
+				</li>
+			<% end%>
 		<% end %>
 	</ul>
 </div>
