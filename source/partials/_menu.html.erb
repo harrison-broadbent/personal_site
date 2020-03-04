@@ -1,11 +1,17 @@
 <div id="menu">
 	<span class="title">Harrison Broadbent</span>
 	<ul>
-		<% Dir.entries('source/pages')[2..-1].sort.each do |page| %>
-			<li>
-				<% page_name_components = page.split(".") %>
-				<%= link_to page_name_components[0].capitalize, "/pages/#{page_name_components[0,2].join('.')}" %>
-			</li>
+		<% Dir.entries('source').sort.each do |page| %>
+			<%# Regex to filter out "." and ".." directories found by Dir.entries %>
+			<% if not page =~ /^[.]+/ %>
+				<%# Filter out folders and index file (as its empty) %>
+				<% if page.include? "html" and not page.include? "index" %>
+					<li>
+						<% page_name_components = page.split(".") %>
+						<%= link_to page_name_components[0].to_s.capitalize, "#{page_name_components[0,2].join('.')}" %>
+					</li>
+				<% end%>
+			<% end %>
 		<% end %>
 	</ul>
 </div>
