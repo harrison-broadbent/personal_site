@@ -1,12 +1,15 @@
 body {
-  color: #333;
+  display: flex;
+  flex-direction: row;
+  padding: 4vh 2vh;
+
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  display: flex;
-  flex-direction: row;
+  font-size: 13px;
+
+  color: #333;
 }
 
 a {
@@ -14,7 +17,7 @@ a {
 
   &:focus,
   &:hover {
-    color: rgba(#000, 0.6);
+    color: rgba(#000, 0.5);
   }
 }
 
