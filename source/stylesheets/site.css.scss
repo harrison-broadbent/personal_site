@@ -1,3 +1,10 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
 body {
   display: flex;
   flex-direction: row;
@@ -23,7 +30,7 @@ a {
 
 #left {
   min-width: 0;
-  width: 200px;
+  width: 12vw;
 }
 
 #content-container {
@@ -38,4 +45,8 @@ a {
   ul {
     list-style: none;
   }
+}
+
+.profile-img {
+  max-width: 130px;
 }
