@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+
+    <%# only include tag in production %>
+    <% if app.build? %>
+      <%= partial 'partials/tracking_snippet' %>
+    <% end %>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title + " · Harrison Broadbent" %></title>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+
+    <%= partial 'partials/left'%>
+
+    <div id="content-container">
+      <div id="content">
+
+	  	<h1><%= current_page.data.title %></h1>
+		<span class="byline"><%= current_page.data.date %></span>
+        <%= yield %>
+		
+      </div>
+    </div>
+
+    <%= partial 'partials/menu'%>
+
+  </body>
+</html>
