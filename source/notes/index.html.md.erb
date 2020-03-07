@@ -11,6 +11,6 @@ Some notes (and many questions) on the books I have read.
 	.sort_by { |child| child.data.date }
 	.reverse
 	.each do |resource|%>
-		<li><%= link_to(resource.data.title, resource.path) %></li>
+		<li><%= link_to(resource.data.title, resource.path, :relative => true) %></li>
 	<% end %>
 </ul>
