@@ -25,6 +25,10 @@ a {
   }
 }
 
+ul {
+  list-style: none;
+}
+
 #left {
   min-width: 0;
   width: 12vw;
@@ -39,11 +43,13 @@ a {
 
 #menu {
   text-align: right;
-  ul {
-    list-style: none;
-  }
 }
 
 .profile-img {
   max-width: 130px;
+}
+
+.byline {
+  font-size: 11px;
+  color: #666;
 }

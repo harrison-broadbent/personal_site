@@ -1,0 +1,18 @@
+---
+title: Notes
+---
+
+Some notes (and many questions) on the books I have read. 
+
+[//]: # (sort notes by reverse date order so the newest are listed first)
+<ul>
+	<% current_resource
+	.children
+	.sort_by { |child| child.data.date }
+	.reverse
+	.each do |resource|%>
+		<li>
+			<%= link_to resource.data.title, resource %>
+		</li>
+	<% end %>
+</ul>
