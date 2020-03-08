@@ -8,7 +8,7 @@ title: About
 
 I live in Melbourne, Australia and I'm currently studying engineering at Monash University.
 
-I love coding, reading, running, camping and electronics amongst other things (and not always in that order!).
+I love [coding](software), [reading](reading), running, camping and electronics amongst other things (and not always in that order!).
 
 Email: [mail@harrisonbroadbent.com](mailto:mail@harrisonbroadbent.com)
 
