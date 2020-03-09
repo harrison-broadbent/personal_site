@@ -6,7 +6,7 @@ title: Reading
 
 I read quite a lot. Sometimes when I read, I also take [notes](notes).
 
-Here is an (non-exhaustive) list of books I have read, with **standouts** highlighted -
+Here is an (non-exhaustive) list of my favourite books, with **standouts** highlighted -
 
 ### Non-fiction
 
@@ -19,5 +19,5 @@ Here is an (non-exhaustive) list of books I have read, with **standouts** highli
 
 - [Eragon, Christopher Paolini](https://amzn.to/2TKU7sk)
 - [The Remains of the Day, Kazuo Ishiguro](https://amzn.to/2x9rCwQ)
-- [**13 1/2 Lives of Captain Bluebear, Walter Moers**](https://amzn.to/3aCs1Xj)
 - [The Handmaids Tale, Margaret Atwood](https://amzn.to/2Qa506j) \| [notes](notes/the_handmaids_tale.html)
+- [**13 1/2 Lives of Captain Bluebear, Walter Moers**](https://amzn.to/3aCs1Xj)
