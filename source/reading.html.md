@@ -22,5 +22,4 @@ Here is an (non-exhaustive) list of my favourite books, with **standouts** highl
 - [Eragon, Christopher Paolini](https://amzn.to/2TKU7sk)
 - [The Handmaids Tale, Margaret Atwood](https://amzn.to/2Qa506j) 
 - [The Remains of the Day, Kazuo Ishiguro](https://amzn.to/2x9rCwQ)
-<!-- \| [notes](notes/the_handmaids_tale.html) -->
 - [**13 1/2 Lives of Captain Bluebear, Walter Moers**](https://amzn.to/3aCs1Xj)
