@@ -6,7 +6,7 @@ title: Reading
 
 I read quite a lot. Sometimes when I read, I also take [notes](notes).
 
-Here is an (non-exhaustive) list of my favourite books, with **standouts** highlighted -
+Here is an (non-exhaustive) list of books I have read, with **standouts** highlighted -
 
 ### Non-fiction
 
@@ -16,6 +16,8 @@ Here is an (non-exhaustive) list of my favourite books, with **standouts** highl
 - [**Can't Hurt Me, David Goggins**](https://amzn.to/2wNr2on) \| [notes](notes/cant_hurt_me.html)
 - [**The Power of Habit, Charles Duhigg**](https://amzn.to/3cvWBDL)
 - [Moonwalking with Einstein, Joshua Foer](https://amzn.to/2PWcjOF) \| [notes](notes/moonwalking_with_einstein.html)
+- [Top Five Regrets of the Dying, Bronnie Ware](https://amzn.to/3ayH6cO)
+- [How to Fail at Almost Everything and Still Win Big, Scott Adams](https://amzn.to/2UMo7ER) \| [notes](notes/how_to_fail_at_everything_and_still_win_big.html)
 
 ### Fiction
 
