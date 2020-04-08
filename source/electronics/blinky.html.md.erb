@@ -1,0 +1,56 @@
+---
+title: Blinky
+date: 2020-04-08
+---
+
+![photo-of-blinky](images/electronics/freeform-blinky/blinky-body.jpg){:class="hero-img-small"}
+
+Blinky was my first attempt at creating a freeform electronics sculpture. 
+
+About six months prior, I discovered [Mohit Bhoite](https://www.instagram.com/mohitbhoite) on Instagram, and I finally decided to take the plunge and build a freeform sculpture myself. 
+
+### Form
+
+Blinky was deliberately designed to be very minimal. To be fair though, that is almost guaranteed when your only structural component is copper wire. 
+
+The sculpture is mounted on a small wooden base to allow it to stand up on my desk and to ensure that it can't fall over as it is quite top-heavy. 
+
+The sculpture is comprised of 2 main sections, the 'head' and 'body', joined by a small wire neck. A wire also runs directly up from the base carrying +5v power, and this runs directly into the RAW input on the Arduino microcontroller. 
+
+The head is angled slightly upwards to make it easier to see the display, and also as I think it makes Blinky look a bit more endearing and cute. 
+
+The final design element was the wiring between the Arduino and the display. I decided to introduce an angular element to the design, as a way to break up the otherwise extremely block aesthetic. This proved challenging and I was not left entirely satisfied, as the wires all ended up at slightly different lengths and angles, detracting from what could have been a beautifully uniform part of the design.  
+
+### Function
+
+Blinky has 2 states - sleeping, and awake. 
+
+The MPU6050 module is used to detect changes in force on the sculpture, and when a bump is detected (placing your hands on the desk is enough), Blinky will 'wake up'. When left alone for long enough, it will return to a sleeping state. 
+
+When awake, Blinky will cycle through a set of different expressions, such as blinking, looking around, or whirling his mouth. 
+
+When going to sleep, Blinky will randomly select between a static sleeping image and a snoring animation. 
+
+Accelerometer data from the MPU6050 is processed using a moving mean average to filter out random noise in the readings. Currently, this is just a simple 75 sample mean to determine a rolling average, and then a 2 sample mean as the actual data readings. Both of these readings only sample a single accelerometer axis. If the data reading deviates from the sampled mean by ± a certain percentage, a bump is registered. It may be possible to combine data from multiple axes to improve the accuracy of the readings. 
+
+Power is delivered through a micro-USB port installed on the underside of the wooden base. A short ground wire runs up and can be seen attaching to the base of the sculpture, thus grounding the entire sculpture and acting as a pseudo-groundplane. A longer wire carries +5v and runs directly into the RAW pin of the Arduino. 
+
+### Thoughts
+
+- I made the terrible mistake of using enamelled wire instead of bare copper wire for the project. The enamel is a thin insulating coating, and resists soldering, making it almost impossible to use the wire as-is. I took to sanding small portions of the structure to allow for solder joints. However, I also discovered a much more efficient method while straightening the wire using a drill. By inserting one end of a length of wire into the drill chuck and clamping the other, you can straighten out the length of wire. However, if you continue to turn it, eventually the enamel starts to peel off and can be brushed away.
+
+- Overall I'm super proud of this sculpture and hope to make more in the future.
+
+### Parts
+
+Key parts for the sculpture were - 
+
+- Arduino Pro Micro + FTDI USB Programmer
+- 7 segment display
+- MPU6050 Gyroscope and Accelerometer
+- Wooden base (originally the lid of a candle)
+- enameled copper wire (DO NOT USE, read 'thought' ^^^)
+
+### Gallery
+
+<%= partial("partials/image-gallery", :locals => { :path => "images/electronics/freeform-blinky/", :unsplash_link => false})%>

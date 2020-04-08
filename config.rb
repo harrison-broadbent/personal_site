@@ -1,12 +1,14 @@
+# frozen_string_literal: true
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+  prefix.browsers = 'last 2 versions'
 end
 
 set :markdown_engine, :kramdown
-set :markdown, :fenced_code_blocks => true, :smartypants => true, :format => :html5
+set :markdown, fenced_code_blocks: true, smartypants: true, format: :html5
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -17,7 +19,15 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With alternative layout
- page '/notes/*', layout: 'notes_layout'
+page '/notes/*', layout: 'writing_layout'
+page '/electronics/*', layout: 'writing_layout'
+
+# minify files
+activate :minify_css
+activate :minify_javascript
+
+# OPTIMIZE: images
+activate :imageoptim
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
@@ -35,15 +45,4 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/basics/helper-methods/
 
 # helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
-
-# Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
 # end
