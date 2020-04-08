@@ -6,6 +6,7 @@ gem 'middleman-autoprefixer', '~> 2.7'
 
 # image optimizations
 gem "middleman-imageoptim", '~> 0.3.0'
+gem 'image_optim'
 
 # markdown parser 
 gem 'kramdown'
