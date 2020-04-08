@@ -26,9 +26,6 @@ page '/electronics/*', layout: 'writing_layout'
 activate :minify_css
 activate :minify_javascript
 
-# OPTIMIZE: images
-activate :imageoptim
-
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
