@@ -12,3 +12,6 @@ jobs:
         uses: calibreapp/image-actions@master
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          jpegQuality: "60"
+          pngQuality: "60"
+          webpQuality: "60"
