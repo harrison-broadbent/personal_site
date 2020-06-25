@@ -21,7 +21,7 @@ Here is an (non-exhaustive) list of books I have read, with **standouts** highli
 
 ### Fiction
 
-- [Eragon, Christopher Paolini](https://amzn.to/2TKU7sk)
+- [Eragon, Christopher Paolini](https://amzn.to/2TKU7sk) \| [notes](notes/eragon.html)
 - [The Handmaids Tale, Margaret Atwood](https://amzn.to/2Qa506j) 
 - [The Remains of the Day, Kazuo Ishiguro](https://amzn.to/2x9rCwQ)
 - [**13 1/2 Lives of Captain Bluebear, Walter Moers**](https://amzn.to/3aCs1Xj)
