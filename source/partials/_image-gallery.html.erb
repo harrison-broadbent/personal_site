@@ -1,0 +1,21 @@
+<%# pass as locals: 
+	path: "images/electronics/main"	|| where are the images located?
+	unsplash_link: true / false || should we link images to unsplash?
+
+	example link
+	<%= partial 'partials/image-gallery', :locals => { :path = "images/electronics/freeform-blinky", unsplash_link?: true}%>
+
+
+<div id="gallery-container">
+	<% sitemap.resources.shuffle.each do |resource| %>
+		<% if resource.path.start_with?( path ) %>
+			<% if unsplash_link %>
+				<% link_to "https://unsplash.com/photos/" + resource.path.split("-")[2] do %>
+					<%= image_tag resource.path %>
+				<% end %>
+			<% else %>
+				<%= image_tag resource.path %>
+			<% end%>
+		<% end %>
+	<% end %>  
+</div>

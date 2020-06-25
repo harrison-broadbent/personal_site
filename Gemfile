@@ -4,6 +4,7 @@ gem 'middleman', '~> 4.2'
 gem 'middleman-router'
 gem 'middleman-autoprefixer', '~> 2.7'
 
+# markdown parser 
 gem 'kramdown'
 gem 'builder'
 

@@ -1,3 +1,7 @@
+body html {
+  height: 100%;
+}
+
 h1 {
   margin: 0;
 }
@@ -44,8 +48,31 @@ a {
   }
 }
 
-.profile-img {
-  max-width: 130px;
+#gallery-container {
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0px;
+  
+  img {
+    width: 95%;
+    height: auto;
+    padding-bottom: 5%;
+  }
+
+}
+
+@media (max-width: 600px) {
+  #gallery-container {
+    column-count: 2;
+  }
+}
+
+.gallery-padding-top {
+  padding-top: 5em;
+}
+
+.hero-img-small {
+  max-height: 130px;
 }
 
 .byline {
