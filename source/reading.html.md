@@ -27,7 +27,7 @@ Below I have listed some books that I thought were worthy of mention, with parti
 ### Fiction
 
 - [**Eragon, Christopher Paolini**](https://amzn.to/2TKU7sk) \| [notes](notes/eragon.html)
-- [Never Let Me Go, Kazuo Ishiguro](https://amzn.to/2GNcaey)
+- [Never Let Me Go, Kazuo Ishiguro](https://amzn.to/2GNcaey) \| [notes](notes/never_let_me_go.html)
 - [Little Fires Everywhere, Celeste Ng](https://amzn.to/30J1qFq)
 - [**A Fire Upon the Deep, Vernor Vinge**](https://amzn.to/2WE96pq)
 - [The Handmaids Tale, Margaret Atwood](https://amzn.to/2Qa506j) 
