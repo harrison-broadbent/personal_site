@@ -6,7 +6,9 @@ title: Reading
 
 I read quite a lot. Sometimes when I read, I also take [notes](notes).
 
-Here is an (non-exhaustive) list of books I have read, with **standouts** highlighted -
+If you are particularly interested, you can check out my [Goodreads](https://www.goodreads.com/user/show/88124947-harrison-broadbent).
+
+Below I have listed some books that I thought were worthy of mention, with particularly great ones **bolded** - 
 
 ### Non-fiction
 
