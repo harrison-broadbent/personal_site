@@ -27,9 +27,12 @@ Below I have listed some books that I thought were worthy of mention, with parti
 ### Fiction
 
 - [**Eragon, Christopher Paolini**](https://amzn.to/2TKU7sk) \| [notes](notes/eragon.html)
+- [Never Let Me Go, Kazuo Ishiguro](https://amzn.to/2GNcaey)
+- [Little Fires Everywhere, Celeste Ng](https://amzn.to/30J1qFq)
 - [**A Fire Upon the Deep, Vernor Vinge**](https://amzn.to/2WE96pq)
 - [The Handmaids Tale, Margaret Atwood](https://amzn.to/2Qa506j) 
 - [The Remains of the Day, Kazuo Ishiguro](https://amzn.to/2x9rCwQ)
+- [**The Heart's Invisible Furies, John Boyne**](https://amzn.to/3iCQeA9)
 - [**The 13 1/2 Lives of Captain Bluebear, Walter Moers**](https://amzn.to/3aCs1Xj)
 - [**The 7 1/2 Deaths of Evelyn Hardcastle, Stuart Turton**](https://amzn.to/2W9sYls)
 
