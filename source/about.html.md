@@ -6,10 +6,10 @@ title: About
 
 ![photo-of-harrison](images/profile.jpg){:class="hero-img-small"}
 
-I live in Melbourne, Australia and I'm currently studying electrical engineering.
+I live in Melbourne, Australia and I'm currently studying Electrical Engineering at Monash University.
 
-I love [coding](software), [reading](reading), running, [electronics](electronics) and camping, amongst other things (and not always in that order!).
+I particularly enjoy [coding](software), [reading](reading), [running](running), [electronics](electronics) and camping.
 
-Email: [mail@harrisonbroadbent.com](mailto:mail@harrisonbroadbent.com)
-
-Github: [harrison-broadbent](https://github.com/harrison-broadbent)
+- Email: [mail@harrisonbroadbent.com](mailto:mail@harrisonbroadbent.com)
+- Github: [harrison-broadbent](https://github.com/harrison-broadbent)
+- Linkedin: [harrisonbroadbent](https://au.linkedin.com/in/harrisonbroadbent)
