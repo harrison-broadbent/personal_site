@@ -8,31 +8,51 @@ I read quite a lot. Sometimes when I read, I also take [notes](notes).
 
 If you are particularly interested, you can check out my [Goodreads](https://www.goodreads.com/user/show/88124947-harrison-broadbent).
 
-Below I have listed some books that I thought were worthy of mention, with particularly great ones **bolded** - 
+Below are some books I think are particularly great, broken down into two tiers -
+
+<!-- Underline the Tier 1 header -->
+
+{:class="text-underline"}
+
+## Tier 1
+
+### Non-fiction
+
+- [Educated, Tara Westover](https://amzn.to/38t9rPR)
+- [Steve Jobs, Walter Isaacson](https://amzn.to/39u4o2H)
+- [The Power of Habit, Charles Duhigg](https://amzn.to/3cvWBDL)
+- [The Body Keeps the Score, Bessel van der Kolk](https://amzn.to/3dVM47h)
+
+### Fiction
+
+- [The Secret History, Donna Tartt](https://amzn.to/3ubPBV3)
+- [Eragon, Christopher Paolini](https://amzn.to/2TKU7sk) \| [notes](notes/eragon.html)
+- [A Fire Upon the Deep, Vernor Vinge](https://amzn.to/2WE96pq)
+- [The Remains of the Day, Kazuo Ishiguro](https://amzn.to/2x9rCwQ)
+- [The Heart's Invisible Furies, John Boyne](https://amzn.to/3iCQeA9)
+- [The 13 1/2 Lives of Captain Bluebear, Walter Moers](https://amzn.to/3aCs1Xj)
+- [The 7 1/2 Deaths of Evelyn Hardcastle, Stuart Turton](https://amzn.to/2W9sYls)
+- [The Hitchhiker's Guide to the Galaxy, Douglas Adams](https://amzn.to/3xvJRHx)
+
+<!-- Underline the Tier 2 header -->
+
+{:class="text-underline"}
+
+## Tier 2
 
 ### Non-fiction
 
 - [Zero to One, Peter Thiel](https://amzn.to/3dmFUtV)
-- [**Relentless, Tim Grover**](https://amzn.to/2ILRr8Q) \| [notes](notes/relentless.html)
-- [**Educated, Tara Westover**](https://amzn.to/38t9rPR)
-- [**Steve Jobs, Walter Isaacson**](https://amzn.to/39u4o2H)
-- [**Can't Hurt Me, David Goggins**](https://amzn.to/2wNr2on) \| [notes](notes/cant_hurt_me.html)
+- [Relentless, Tim Grover](https://amzn.to/2ILRr8Q) \| [notes](notes/relentless.html)
 - [The Launch Pad, Randall Stross](https://amzn.to/2yBWzL9)
-- [**The Power of Habit, Charles Duhigg**](https://amzn.to/3cvWBDL)
-- [Moonwalking with Einstein, Joshua Foer](https://amzn.to/2PWcjOF) \| [notes](notes/moonwalking_with_einstein.html)
+- [Can't Hurt Me, David Goggins](https://amzn.to/2wNr2on) \| [notes](notes/cant_hurt_me.html)
 - [Top Five Regrets of the Dying, Bronnie Ware](https://amzn.to/3ayH6cO)
-- [**An Astronaut's Guide to Life on Earth, Chris Hadfield**](https://amzn.to/3fq2S57)
+- [Moonwalking with Einstein, Joshua Foer](https://amzn.to/2PWcjOF) \| [notes](notes/moonwalking_with_einstein.html)
+- [An Astronaut's Guide to Life on Earth, Chris Hadfield](https://amzn.to/3fq2S57)
 - [How to Fail at Almost Everything and Still Win Big, Scott Adams](https://amzn.to/2UMo7ER) \| [notes](notes/how_to_fail_at_everything_and_still_win_big.html)
 
 ### Fiction
 
-- [**Eragon, Christopher Paolini**](https://amzn.to/2TKU7sk) \| [notes](notes/eragon.html)
-- [Never Let Me Go, Kazuo Ishiguro](https://amzn.to/2GNcaey) \| [notes](notes/never_let_me_go.html)
 - [Little Fires Everywhere, Celeste Ng](https://amzn.to/30J1qFq)
-- [**A Fire Upon the Deep, Vernor Vinge**](https://amzn.to/2WE96pq)
-- [The Handmaids Tale, Margaret Atwood](https://amzn.to/2Qa506j) 
-- [The Remains of the Day, Kazuo Ishiguro](https://amzn.to/2x9rCwQ)
-- [**The Heart's Invisible Furies, John Boyne**](https://amzn.to/3iCQeA9)
-- [**The 13 1/2 Lives of Captain Bluebear, Walter Moers**](https://amzn.to/3aCs1Xj)
-- [**The 7 1/2 Deaths of Evelyn Hardcastle, Stuart Turton**](https://amzn.to/2W9sYls)
-
+- [The Handmaids Tale, Margaret Atwood](https://amzn.to/2Qa506j)
+- [Never Let Me Go, Kazuo Ishiguro](https://amzn.to/2GNcaey) \| [notes](notes/never_let_me_go.html)

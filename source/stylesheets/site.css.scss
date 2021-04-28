@@ -53,13 +53,12 @@ a {
   line-height: 0;
   column-count: 3;
   column-gap: 0px;
-  
+
   img {
     width: 95%;
     height: auto;
     padding-bottom: 5%;
   }
-
 }
 
 @media (max-width: 600px) {
@@ -81,3 +80,6 @@ a {
   color: #666;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
