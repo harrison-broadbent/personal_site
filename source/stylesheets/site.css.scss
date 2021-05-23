@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+@import "./highlighting.css";
+
+// COLORS
+$body-text-color: #333;
+$quote-text-color: lighten($body-text-color, 20%);
+
+// MEDIA QUERY BREAKPOINTS
+$phone: 640px;
+$tablet: 768px;
+$desktop: 1024px;
+
 body html {
   height: 100%;
 }
@@ -17,7 +29,7 @@ body {
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   font-size: 13px;
 
-  color: #333;
+  color: $body-text-color;
 }
 
 a {
@@ -61,7 +73,7 @@ a {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: $phone) {
   #gallery-container {
     column-count: 2;
   }
@@ -82,4 +94,44 @@ a {
 
 .text-underline {
   text-decoration: underline;
+}
+
+.highlight {
+  width: fit-content;
+
+  // make sure that content below the code block does not have drop-shadow on it.
+  margin-bottom: 2em;
+
+  table {
+    margin: 1em;
+    box-shadow: -15px 16px 32px -15px #000000;
+    border: none;
+    pre {
+      font-family: "Fira Code", monospace;
+    }
+  }
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  color: $quote-text-color;
+
+  :before {
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  p {
+    display: inline;
+  }
+}
+
+table {
+  border: 1px solid black;
 }

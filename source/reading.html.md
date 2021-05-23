@@ -8,13 +8,11 @@ I read quite a lot. Sometimes when I read, I also take [notes](notes).
 
 If you are particularly interested, you can check out my [Goodreads](https://www.goodreads.com/user/show/88124947-harrison-broadbent).
 
-Below are some books I think are particularly great, broken down into two tiers -
-
-<!-- Underline the Tier 1 header -->
+<!-- Underlines the Tier 1 header -->
 
 {:class="text-underline"}
 
-## Tier 1
+## Tier 1 - Read for a lifetime.
 
 ### Non-fiction
 
@@ -34,11 +32,11 @@ Below are some books I think are particularly great, broken down into two tiers 
 - [The 7 1/2 Deaths of Evelyn Hardcastle, Stuart Turton](https://amzn.to/2W9sYls)
 - [The Hitchhiker's Guide to the Galaxy, Douglas Adams](https://amzn.to/3xvJRHx)
 
-<!-- Underline the Tier 2 header -->
+<!-- Underlines the Tier 2 header -->
 
 {:class="text-underline"}
 
-## Tier 2
+## Tier 2 - Read during your lifetime.
 
 ### Non-fiction
 
