@@ -26,14 +26,18 @@ h1 {
 body {
   display: flex;
   flex-direction: row;
+
   padding: 4vh 2vh;
+  @media (max-width: $phone) {
+    padding: 2vh 0vh;
+  }
 
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   // font-size: 13px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 
   color: $body-text-color;
 }
