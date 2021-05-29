@@ -107,22 +107,10 @@ a {
   text-decoration: underline;
 }
 
-.highlight {
-  width: fit-content;
-
-  // make sure that content below the code block does not have drop-shadow on it.
-  margin-bottom: 2em;
-
-  table {
-    margin: 1em;
-    box-shadow: -15px 16px 32px -15px #000000;
-    border: none;
-    pre {
-      font-family: "Fira Code", monospace;
-    }
-  }
-}
-
-table {
+// Code blocks
+div.highlight {
+  width: calc(min(1000px, 90vw)) !important;
   border: 1px solid black;
+  overflow-x: auto;
+  padding: 1em;
 }

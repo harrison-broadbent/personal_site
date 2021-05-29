@@ -10,8 +10,7 @@ end
 
 set :markdown_engine, :kramdown
 set :markdown, fenced_code_blocks: true, smartypants: true, format: :html5
-# activate :syntax, :line_numbers => true, :inline_theme => Rouge::Themes::Monokai
-activate :syntax, :line_numbers => true
+activate :syntax
 
 ###############
 ##### END #####
