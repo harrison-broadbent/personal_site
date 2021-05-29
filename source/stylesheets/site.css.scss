@@ -107,6 +107,10 @@ a {
   text-decoration: underline;
 }
 
+table {
+  border: 1px solid black;
+}
+
 // Code blocks
 div.highlight {
   width: calc(min(1000px, 90vw)) !important;
