@@ -4,13 +4,15 @@ activate :autoprefixer do |prefix|
   prefix.browsers = 'last 2 versions'
 end
 
+activate :syntax
+activate :meta_tags
+
 ################
 ### MARKDOWN ###
 ################
 
 set :markdown_engine, :kramdown
 set :markdown, fenced_code_blocks: true, smartypants: true, format: :html5
-activate :syntax
 
 ###############
 ##### END #####

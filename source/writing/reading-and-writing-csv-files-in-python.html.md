@@ -1,6 +1,8 @@
 ---
 title: Reading and writing CSV files in Python
 date: 2021-05-21
+keywords: python, csv, read csv python, write csv python
+description: Reading and writing to CSV files using Python.
 tags:
   - technical
   - programming
