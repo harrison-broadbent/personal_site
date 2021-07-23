@@ -98,6 +98,14 @@ a {
   max-height: 130px;
 }
 
+.img-medium {
+  max-height: 300px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
 .byline {
   font-size: 11px;
   color: #666;
@@ -105,6 +113,10 @@ a {
 
 .text-underline {
   text-decoration: underline;
+}
+
+.gist {
+  width: calc(min(1000px, 80vw)) !important;
 }
 
 table {

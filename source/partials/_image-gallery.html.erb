@@ -5,10 +5,15 @@
 	example link
 	<%= partial 'partials/image-gallery', :locals => { :path = "images/electronics/freeform-blinky", unsplash_link?: true}%>
 
+<%# 
+
+	image gallery partial:
+	 - filters out pictures containing "diagram".
+ %>
 
 <div id="gallery-container">
 	<% sitemap.resources.shuffle.each do |resource| %>
-		<% if resource.path.start_with?( path ) %>
+		<% if resource.path.start_with?( path ) and !resource.path.include?("diagram") %>
 			<% if unsplash_link %>
 				<% link_to "https://unsplash.com/photos/" + resource.path.split("-")[2] do %>
 					<%= image_tag resource.path %>
