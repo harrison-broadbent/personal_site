@@ -31,7 +31,7 @@ page '/*.txt', layout: false
 
 # With alternative layout
 page '/notes/*', layout: 'writing_layout'
-page '/writing/*', layout: 'writing_layout'
+# page '/writing/*', layout: 'writing_layout'
 page '/electronics/*', layout: 'writing_layout'
 
 ###############
