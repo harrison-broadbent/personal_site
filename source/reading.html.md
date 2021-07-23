@@ -4,7 +4,7 @@ title: Reading
 
 # Reading
 
-I read quite a lot. Sometimes when I read, I also take [notes](notes).
+Some books I think are worth recommending.
 
 If you are particularly interested, you can check out my [Goodreads](https://www.goodreads.com/user/show/88124947-harrison-broadbent).
 
@@ -24,7 +24,7 @@ If you are particularly interested, you can check out my [Goodreads](https://www
 ### Fiction
 
 - [The Secret History, Donna Tartt](https://amzn.to/3ubPBV3)
-- [Eragon, Christopher Paolini](https://amzn.to/2TKU7sk) \| [notes](notes/eragon.html)
+- [Eragon, Christopher Paolini](https://amzn.to/2TKU7sk)
 - [A Fire Upon the Deep, Vernor Vinge](https://amzn.to/2WE96pq)
 - [The Remains of the Day, Kazuo Ishiguro](https://amzn.to/2x9rCwQ)
 - [The Heart's Invisible Furies, John Boyne](https://amzn.to/3iCQeA9)
@@ -41,16 +41,16 @@ If you are particularly interested, you can check out my [Goodreads](https://www
 ### Non-fiction
 
 - [Zero to One, Peter Thiel](https://amzn.to/3dmFUtV)
-- [Relentless, Tim Grover](https://amzn.to/2ILRr8Q) \| [notes](notes/relentless.html)
+- [Relentless, Tim Grover](https://amzn.to/2ILRr8Q)
 - [The Launch Pad, Randall Stross](https://amzn.to/2yBWzL9)
-- [Can't Hurt Me, David Goggins](https://amzn.to/2wNr2on) \| [notes](notes/cant_hurt_me.html)
+- [Can't Hurt Me, David Goggins](https://amzn.to/2wNr2on)
 - [Top Five Regrets of the Dying, Bronnie Ware](https://amzn.to/3ayH6cO)
-- [Moonwalking with Einstein, Joshua Foer](https://amzn.to/2PWcjOF) \| [notes](notes/moonwalking_with_einstein.html)
+- [Moonwalking with Einstein, Joshua Foer](https://amzn.to/2PWcjOF)
 - [An Astronaut's Guide to Life on Earth, Chris Hadfield](https://amzn.to/3fq2S57)
-- [How to Fail at Almost Everything and Still Win Big, Scott Adams](https://amzn.to/2UMo7ER) \| [notes](notes/how_to_fail_at_everything_and_still_win_big.html)
+- [How to Fail at Almost Everything and Still Win Big, Scott Adams](https://amzn.to/2UMo7ER)
 
 ### Fiction
 
 - [Little Fires Everywhere, Celeste Ng](https://amzn.to/30J1qFq)
 - [The Handmaids Tale, Margaret Atwood](https://amzn.to/2Qa506j)
-- [Never Let Me Go, Kazuo Ishiguro](https://amzn.to/2GNcaey) \| [notes](notes/never_let_me_go.html)
+- [Never Let Me Go, Kazuo Ishiguro](https://amzn.to/2GNcaey)
