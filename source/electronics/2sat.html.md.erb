@@ -5,38 +5,41 @@ date: 2020-05-07
 
 ![photo-of-2sat](images/electronics/freeform-2sat/2sat-white.jpg){:class="hero-img-small"}
 
-2Sat is my latest freeform circuit sculpture. 
+2Sat was my first attempt at a satellite sculpture. 
 
-This sculpture was again inspired by similar projects from [Mohit Bhoite](https://www.instagram.com/mohitbhoite).
+Check out my second attempt - [tinysat](/electronics/tinysat.html)
 
 ### Form
 
-The circuit sculpture was designed to capture the essences of a space satellite, while still sticking with the minimalist circuit sculpture aesthetic. 
+The heart of 2Sat is a small [pummer](http://solarbotics.net/library/circuits/bot_pummer.html) [circuit](https://www.google.com/search?q=pummer+circuit&sxsrf=ALeKk03lnZuOpiB6q0gl12fADBhYg_LHQw:1588761573167&source=lnms&tbm=isch&sa=X&ved=2ahUKEwii5s2Jhp_pAhUymeYKHXGZCnQQ_AUoAXoECAwQAw&biw=1440&bih=772#imgrc=Dxef6Kxj9arINM). 
 
-The core of 2Sat, a small [pummer](http://solarbotics.net/library/circuits/bot_pummer.html) [circuit](https://www.google.com/search?q=pummer+circuit&sxsrf=ALeKk03lnZuOpiB6q0gl12fADBhYg_LHQw:1588761573167&source=lnms&tbm=isch&sa=X&ved=2ahUKEwii5s2Jhp_pAhUymeYKHXGZCnQQ_AUoAXoECAwQAw&biw=1440&bih=772#imgrc=Dxef6Kxj9arINM), is suspended at the core of the sculpture. On either side of the core, the solar cells that charge the pummer circuit extend. On the bottom of the sculpture lies a 1F supercapacitor, which acts as energy storage for the circuit, and from the top extends a small red LED. 
+Solar panels sit on either side of the satellite, and at the base is a large capacitor, which stores the needed energy. 
 
-Whereas in my [previous circuit sculpture](electronics/blinky.html) I used copper wire, for this sculpture I went with 0.8mm brass wire, and overall am pleased with the results. In terms of aesthetics, I think it retains the beautiful red-orange metallic look while appearing slightly lighter than copper. The bigger driver of the change in wire, however, was the ease of working with brass wire, due to the lack of an enamel coating (in contrast to the enamelled copper wire I used in my Blinky circuit sculpture).  
+For this sculpture, I used 0.8mm brass wire for the structure, and I'm pleased with the results. 
 
-The solar cells are a monocrystalline variant, and these 2 small solar cells provide enough power throughout the day to sustain the device for about 4 hours in darkness. Their modest size was important, to ensure they wouldn't appear jarringly large attached to the small body of the device. Additionally, the matte black surface complements the design well, matching the colour of the microchip and the capacitors.  The angle of the panels was tricky to decide on, as that can greatly change how the circuit sculpture looks from its resting position. After a bit of playing around, I chose an angle which tilted them up and out on about a 30º angle from the centerline of the sculpture. 
+The angle of the panels was tricky to decide on, as that changes how the satellite looks. After a bit of playing around, I chose an angle that tilted them at about a 30º angle. 
 
-The only other key design feature is the blinking led that extends from the top of the satellite. Due to the orientation of the circuit suspended within the body of the device, there was a preferred direction to extend the LED towards, due to the required wiring of the device. I elected to follow the preferred direction and settled on a length of wire of approximately 40mm. This led to a total height of ~85mm, with the body + capacitor measuring in at 45mm high. 
+The only other key design feature is the blinking led that extends from the top of the satellite. 2Sat has a total height of ~85mm, with the body + capacitor measuring at 45mm high, and the LED extending 40mm. 
 
 ### Function
-
 The core of this sculpture is a small charging circuit, combined with a [pummer](http://solarbotics.net/library/circuits/bot_pummer.html) [circuit](https://www.google.com/search?q=pummer+circuit&sxsrf=ALeKk03lnZuOpiB6q0gl12fADBhYg_LHQw:1588761573167&source=lnms&tbm=isch&sa=X&ved=2ahUKEwii5s2Jhp_pAhUymeYKHXGZCnQQ_AUoAXoECAwQAw&biw=1440&bih=772#imgrc=Dxef6Kxj9arINM). 
 
-During the day, the solar cells charge up the large 1F capacitor, and then after dark, the capacitor begins to discharge and power the blinking pummer circuit. This nocturnal behaviour doesn't require additional sensors, and instead, a clever circuit design allows the solar panels to act as both a source of power and a light sensor. The pummer circuit produces a short pulse which is smoothed out by a 100uF capacitor in parallel with the LED and creates a pumming, blinking effect. The duty cycle of the circuit sculpture is based on the combination of capacitor and timing resistor values. 
+During the day, the solar cells charge up the capacitor. Then, after dark, the capacitor begins to discharge and power the pummer circuit. 
+This nocturnal behaviour doesn't need any extra sensors. Instead, a clever circuit design allows the solar panels to act as both a source of power and a light sensor. 
 
-There is certainly room for improvement. As you can see in a few of the images below, I attempted to minimize the size of the pummer circuit by using an SMD diode and SMD capacitors. While I was able to test the circuit before soldering it together, I think there may have been some differences between the testing and production environment (my prototyping environment likely introduced many irregularities). As it stands, the pumming effect is not quite ideal — when the capacitor is relatively charged, the LED doesn't turn off instantly after flashing and instead dims and remains on for 3-4 seconds. As the capacitor drains, however, the pummer approaches ideal operations. 
+The pummer circuit produces a short pulse which gets smoothed by a 100uF capacitor in parallel with the LED. 
+This is what creates the pumming, blinking effect. 
 
-Additionally, some adjustment to the resistor across the solar panel would be ideal, as the current value (1MΩ) still results on the pummer circuit turning on earlier than I would like (raising this value will make the device more sensitive to light). 
+There is room for improvement. 
 
-Optimising these two factors would not only lead to improving the operation of the circuit but would also reduce the power consumption of the device, leading to a longer runtime. 
+The pumming effect is not ideal — with a charged capacitor, the LED doesn't turn off after flashing.  Instead, it dims and remains on for 3-4 seconds. 
+As the main capacitor discharged, however, the pummer approaches ideal operations. 
 
-Overall though, I am pleased with how the project turned out, and encourage those interested to check out some of the parts below, and have a go constructing one yourself. 
+I would also adjust the resistor across the solar panel. 
+With the current value of 1MΩ,  the circuit turns on earlier than I would like. 
 
 The circuit diagram below (not mine) shows how to construct this circuit - 
-![pummer-circuit-diagram](images/electronics/pummer-circuit-diagram.jpg){:class="hero-img-small"}
+![pummer-circuit-diagram](images/electronics/pummer-circuit-diagram.jpg){:class="img-responsive"}
 
 ### Parts
 
