@@ -25,6 +25,7 @@ If you are particularly interested, you can check out my [Goodreads](https://www
 
 - [The Secret History, Donna Tartt](https://amzn.to/3ubPBV3)
 - [Eragon, Christopher Paolini](https://amzn.to/2TKU7sk)
+- [Mistborn: The Final Empire, Brandon Sanderson](https://www.amazon.com/Mistborn-Final-Empire-Brandon-Sanderson/dp/076531178X)
 - [A Fire Upon the Deep, Vernor Vinge](https://amzn.to/2WE96pq)
 - [The Remains of the Day, Kazuo Ishiguro](https://amzn.to/2x9rCwQ)
 - [The Heart's Invisible Furies, John Boyne](https://amzn.to/3iCQeA9)
