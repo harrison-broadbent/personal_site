@@ -8,11 +8,35 @@ Some of the software projects I've built. You can visit my [Github](https://www.
 
 Please ⭐️ these projects if you find them useful, I really appreciate it!
 
+### [Jobly 🔶](https://jobly.so)
+
+> Jobly helps companies to [manage their hiring and careers website in Notion](https://jobly.so).
+
+> It's is built on-top of Notion, and is two separate NextJS apps (marketing site and main app), both hosted on Vercel.
+
+> Jobly is currently under development! If you're interested, please check it out or email me for more information.
+
+> NextJS, Vercel, Notion, react-notion, Splitbee
+
+### [Sponsaurus 🦕](https://github.com/harrison-broadbent/sponsaurus-app)
+
+> Sponsaurus was a advertising management system, for on people who ran or managed email newsletters.
+
+> I worked on it for a few months, and had a few early users, but didn't end up launching it publicly.
+
+> The software is split across two repositories — one for the [Sponsaurus app/backend](https://github.com/harrison-broadbent/sponsaurus-app), and another for the [Sponsaurus marketing site](https://github.com/harrison-broadbent/sponsaurus-landing)
+
+> The marketing site is a static site generated with Middleman, and I heavily utilized TailwindUI components to speed up development. The main app is a Ruby on Rails app, with all the frontend and backend code managed there.
+
+> This was the first time I used [Render](https://render.com) for hosting (I decided to move on from Heroku).
+
+> ⇒ _Ruby, Ruby on Rails, TailwindCSS, Middleman, Render_
+
 ### [JGen 📔](https://github.com/harrison-broadbent/JGen)
 
 > JGen is a Python script to generate text-based journal files from a template.
 
-> Given a template, built using a set of simple templating options, JGen can generate a text-based journal of arbitrary length, automatically filling in dates, days of the year, weeks of the year etc.
+> Given a template, built using a set of simple templating options, JGen can generate a text-based journal of arbitrary length, automatically filling in dates, days/weeks of the year etc.
 
 > I find a simple text journal kept on my computer quite useful, and so I built JGen to help me generate templates for my journals. I added some extra functionality to make it more broadly useful.
 
@@ -22,19 +46,19 @@ Please ⭐️ these projects if you find them useful, I really appreciate it!
 
 > Clipprs is a piece of software I developed to track all the little bits of information that we collect about the people we meet.
 
-> Rather than rely solely on our brains (which are very prone to forgetting), Clipprs provides a central repository to store and retrieve all that information.
+> It provides a central repository to store and retrieve nitty-gritty information that our brains are so good at forgetting.
 
-> Clipprs was designed with speed and simplicity in mind, in particular it's focused on minimizing the friction between encountering some information, and entering it into your system.
+> Clipprs is focused on minimizing the friction between encountering new information and storing it.
 
 > ⇒ _NodeJS, [Oclif](https://www.oclif.io), [Enquirer](https://github.com/enquirer/enquirer)_
 
-### [LibgenAPI](https://github.com/harrison-broadbent/libgen-api)
+### [LibgenAPI 📚](https://github.com/harrison-broadbent/libgen-api)
 
-> [Library Genesis](http://gen.lib.rus.ec/) is a search engine for a wide collection of books and articles and enables free access to this content where it would otherwise be paywalled or inaccessible.
+> [Library Genesis](http://gen.lib.rus.ec/) is a search engine for a wide collection of books and articles. It enables free access to this content where it would otherwise be paywalled or inaccessible.
 
-> As part of a project, I was looking to access results from Library Genesis using an API and then to manipulate that data using Python. Unfortunately, there was (and still is) [no 1st party API](http://garbage.world/posts/libgen/?ref=public-apis) methods for searching by titles or authors, and I had reliability issues with other open-source solutions. I had access to one of the largest "libraries" in the world, but had no reliable way of programmatically searching it!
+> As part of a project, I was looking to access results from Library Genesis using an API. Unfortunately, there was (and still is) [no 1st party API](http://garbage.world/posts/libgen/?ref=public-apis) methods for searching by titles or authors, and I had reliability issues with other open-source solutions. I had access to one of the largest "libraries" in the world, but had no reliable way to search it!
 
-> So, I decided to implement my own library for searching Library Genesis. It solves the core desire of wanting a simple was to searching Library Genesis for titles and authors. It is currently a [Python library](https://pypi.org/project/libgen-api/) and uses [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to scrape and parse data from Library Genesis search results.
+> I decided to implement my own API. It solves the core problem of wanting a simple was to search for titles and authors. It is currently a [Python library](https://pypi.org/project/libgen-api/) and uses [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to scrape and parse data from Library Genesis search results.
 
 > ⇒ _Python3, [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)_
 

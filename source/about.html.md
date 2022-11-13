@@ -6,7 +6,7 @@ title: About
 
 ![photo-of-harrison](images/profile.jpg){:class="hero-img-small"}
 
-I live in Melbourne, Australia and I'm currently studying Electrical Engineering at Monash University.
+I live in Melbourne, Australia. I'm currently looking for Software Engineering work, so please reach out!
 
 I particularly enjoy [coding](software), [reading](reading), [running](running), [electronics](electronics) and camping.
 

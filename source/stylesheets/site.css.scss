@@ -66,6 +66,8 @@ a {
 #menu {
   text-align: right;
   height: fit-content;
+  border: 1px solid #333;
+  padding: 1rem;
   ul {
     list-style: none;
     padding-inline-start: 20px;
@@ -120,7 +122,8 @@ a {
 }
 
 table {
-  border: 1px solid black;
+  border: 1px solid #333;
+  padding: 1rem;
 }
 
 // Code blocks
