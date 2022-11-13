@@ -4,7 +4,9 @@ title: Now
 
 # Now
 
-What am I up to? Currently, I'm -
+What am I up to?
+
+Currently, I'm -
 
 ## > Building a Micro-SaaS
 
