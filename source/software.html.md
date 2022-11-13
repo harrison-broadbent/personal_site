@@ -12,7 +12,7 @@ Please ⭐️ these projects if you find them useful, I really appreciate it!
 
 > Jobly helps companies to [manage their hiring and careers website in Notion](https://jobly.so).
 
-> It's is built on-top of Notion, and is two separate NextJS apps (marketing site and main app), both hosted on Vercel.
+> It's built on-top of Notion, and is two separate NextJS apps (marketing site and main app), both hosted on Vercel.
 
 > Jobly is currently under development! If you're interested, please check it out or email me for more information.
 
