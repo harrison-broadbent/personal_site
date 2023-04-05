@@ -30,7 +30,9 @@
 		  <span class="byline"><%= current_page.data.date %></span>
       <%= yield %>
 		
-      <%= partial 'partials/contact-table' %>
+      <div id="contact-table">
+        <%= partial 'partials/contact-table' %>
+      </div>
       </div>
     </div>
 
