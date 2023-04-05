@@ -8,6 +8,16 @@ Some of the software projects I've built. You can visit my [Github](https://www.
 
 Please ⭐️ these projects if you find them useful, I really appreciate it!
 
+### [Buybase 🟣](https://buybase.io)
+
+> Buybase helps indie creators to [sell access to Airtable or Notion databases](https://buybase.io).
+
+> Initially it started as a playground, a small project for me tinker around with, with no plans to launch it.
+
+> Over time though, it developed into quite a handy little tool, which I though others might find useful.
+
+> ⇒ Ruby on Rails, Render, Vue, TailwindCSS
+
 ### [Jobly 🔶](https://jobly.so)
 
 > Jobly helps companies to [manage their hiring and careers website in Notion](https://jobly.so).
@@ -16,7 +26,9 @@ Please ⭐️ these projects if you find them useful, I really appreciate it!
 
 > Jobly is currently under development! If you're interested, please check it out or email me for more information.
 
-> NextJS, Vercel, Notion, react-notion, Splitbee
+> Like most of my other projects, I decided to sunset Jobly before it really went anywhere.
+
+> ⇒ NextJS, Vercel, Notion, react-notion, Splitbee
 
 ### [Sponsaurus 🦕](https://github.com/harrison-broadbent/sponsaurus-app)
 
