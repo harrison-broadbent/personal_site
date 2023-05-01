@@ -8,7 +8,7 @@ title: About
 
 I live in Melbourne, Australia.
 
-I'm currently working as a software engineer at Bukalapak, and building [buybase](https://buybase.io) on the side.
+I'm currently working as a software engineer at Bukalapak, and building [MONN.APP](https://monn.app) on the side.
 
 Previously, I spent 3 years working in MedTech at [Seer Medical](https://seermedical.com), in a bit of a strange (but fun!) mix of manufacturing / production management / software engineering roles.
 
