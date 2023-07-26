@@ -8,10 +8,10 @@ What am I up to?
 
 Currently, I'm -
 
-## > Building a Micro-SaaS
+## > Blogging about Ruby on Rails
 
-> I'm currently working on [buybase](https://buybase.io), a SaaS to help indie creators sell access to their Airtable and Notion databases. Currently it's in a pretty heavy development phase, and on the side I'm trying to reach out to potential early users.
+> I'm currently writing [Ruby on Rails guides at RailsNotes](https://railsnotes.xyz). RailsNotes is a blog and newsletter, where I write the Ruby on Rails guides I wish I had when I was starting out. It's been great to give back to the Rails community, and I've been blown away by the great reception to my blog.
 
-## > Working in software
+## > Embracing a tech layoff
 
-> In January 2023, I started working full-time in software at Bukalapak, to help bring Indonesia's small businesses online.
+> Yep, it happened to me too. 2023 has been a tough year for lots of tech workers, but I'm lucking to be in a position where I can enjoy some downtime rather than having to dive straight back into job hunting.
