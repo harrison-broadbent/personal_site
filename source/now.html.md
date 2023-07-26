@@ -4,9 +4,9 @@ title: Now
 
 # Now
 
-What am I up to?
+_Last updated: 25th July, 2023_
 
-Currently, I'm -
+What am I up to? What's going on with me **now**?
 
 ## > Blogging about Ruby on Rails
 
