@@ -8,6 +8,18 @@ Some of the software projects I've built. You can visit my [Github](https://www.
 
 Please ⭐️ these projects if you find them useful, I really appreciate it!
 
+### [RailsNotes UI 🔨](https://railsnotesui.xyz)
+
+> RailsNotes UI is a library of email templates and components for Ruby on Rails apps (solely for now, but not for much longer!).
+
+> ⇒ Ruby on Rails, ViewComponents
+
+### [RailsNotes 🟥](https://railsnotes.xyz)
+
+> RailsNotes is a Ruby on Rails blog, the blog I wish I had when I was first learning Rails. I try to write interesting articles that share _tacit knowledge_; As of early 2024 nearly 30,000 people have read the blog (an outrageous success), and I'm excited to keep writing!
+
+> ⇒ NextJS, TailwindCSS, Vercel, Beehiiv (for the newsletter)
+
 ### [Buybase 🟣](https://buybase.io)
 
 > Buybase helps indie creators to [sell access to Airtable or Notion databases](https://buybase.io).

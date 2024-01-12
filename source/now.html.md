@@ -4,20 +4,18 @@ title: Now
 
 # Now
 
-_Last updated: 25th July, 2023_
+_Last updated: 12th January, 2024_
 
 What am I up to? What's going on with me **now**?
 
 ## > Blogging about Ruby on Rails
 
-> I'm currently writing [Ruby on Rails guides at RailsNotes 🟥](https://railsnotes.xyz)
+> I publish frequently on my [Ruby on Rails blog, RailsNotes 🟥](https://railsnotes.xyz)
 >
-> RailsNotes is a blog and newsletter, where I write the Ruby on Rails guides I wish I had when I was starting out.
+> RailsNotes is the blog I wish I had when I started learning Ruby on Rails — It's been great to give back to the Rails community, and I've been blown away by the reception!
 >
-> It's been great to give back to the Rails community, and I've been blown away by the great reception.
+> Alongside the main blog, I've also built [RailsNotes UI, Ruby on Rails templates and components](https://railsnotesui.xyz), the [better_mailer_previews gem](https://github.com/harrison-broadbent/better_mailer_previews), the [RailsNotes newsletter](https://railsnotes.xyz/newsletter) and more!
 
-## > Embracing a tech layoff
+## > Software Engineering at HotDoc
 
-> Yep, it happened to me too.
->
-> 2023 has been a tough year for lots of tech workers, but I'm lucking to be in a position where I can enjoy some downtime rather than having to dive straight back into job hunting.
+> I've found a great place to work at HotDoc — great people, great culture. Plus, they're a Rails shop!
