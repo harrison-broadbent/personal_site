@@ -8,9 +8,17 @@ Some of the software projects I've built. You can visit my [Github](https://www.
 
 Please ⭐️ these projects if you find them useful, I really appreciate it!
 
+### [Affilicart 🛒](https://affilicart.app)
+
+> Once I launched my starter kit, I figured I should probably use it to build something!
+>
+> I've built Affilicart, a tool to [share amazon cart links](https://affilicart.app) — Amazon has a little-known way of building links to add an entire collection of products to a cart at one time, which I think could be really handy.
+
+> ⇒ Ruby on Rails, ViewComponents
+
 ### [RailsNotes UI 🔨](https://railsnotesui.xyz)
 
-> RailsNotes UI is a library of email templates and components for Ruby on Rails apps (solely for now, but not for much longer!).
+> RailsNotes UI is a library of [email templates and components for Ruby on Rails apps](https://railsnotesui.xyz/email-templates), plus the newly-released [Ruby on Rails Starter Kit/SaaS template](https://railsnotesui.xyz/starter-kit).
 
 > ⇒ Ruby on Rails, ViewComponents
 
