@@ -4,9 +4,13 @@ title: Now
 
 # Now
 
-_Last updated: 12th January, 2024_
+_Last updated: 17th Feb, 2024_
 
 What am I up to? What's going on with me **now**?
+
+## > Building Side-Projects
+
+> I've always got a side-project or two on the go. Currently, I'm launching a [Ruby on Rails Starter Kit](https://railsnotesui.xyz/starter-kit) and a tool to [share Amazon cart links](https://affilicart.app).
 
 ## > Blogging about Ruby on Rails
 
