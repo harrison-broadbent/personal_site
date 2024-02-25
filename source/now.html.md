@@ -10,7 +10,7 @@ What am I up to? What's going on with me **now**?
 
 ## > Building Side-Projects
 
-> I've always got a side-project or two on the go. Currently, I'm launching a [Ruby on Rails Starter Kit](https://railsnotesui.xyz/starter-kit) and a tool to [share Amazon cart links](https://affilicart.app).
+> I've always got a side-project or two on the go. Currently, I'm launching a [Ruby on Rails Starter Kit](https://railsnotesui.xyz/starter-kit) and a tool to [share Amazon cart links](https://amzcartshare.com).
 
 ## > Blogging about Ruby on Rails
 
