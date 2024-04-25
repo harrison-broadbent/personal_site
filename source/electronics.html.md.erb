@@ -10,12 +10,10 @@ Occasionally, I build freeform circuit sculptures. I also love photographing ele
 
 Some recent projects -
 
-- [Blinky](electronics/blinky.html)
-- [2Sat](electronics/2sat.html)
-- [tinysat](electronics/tinysat.html)
+<%= partial 'partials/folder-list', :locals => { path: "electronics"} %>
 
 <div class="gallery-padding-top">
-	<p>And a collection of electroncs photos: </p>
+	<p>And a collection of electronics photos: </p>
 	<%= partial("partials/image-gallery", :locals => { :path => "images/electronics/main/", :unsplash_link => true})%>
 </div>
 <%= link_to 'see more on unsplash','https://unsplash.com/@harrisonbroadbent'%>

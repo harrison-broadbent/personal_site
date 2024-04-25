@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 activate :autoprefixer do |prefix|
-  prefix.browsers = 'last 2 versions'
+  prefix.browsers = "last 2 versions"
 end
 
 activate :syntax
@@ -25,14 +25,15 @@ set :markdown, fenced_code_blocks: true, smartypants: true, format: :html5
 ###############
 
 # Per-page layout changes
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
+page "/*.xml", layout: false
+page "/*.json", layout: false
+page "/*.txt", layout: false
 
 # With alternative layout
-page '/notes/*', layout: 'writing_layout'
-page '/sourdough/*', layout: 'writing_layout'
-page '/electronics/*', layout: 'writing_layout'
+page "/notes/*", layout: "writing_layout"
+page "/woodworking/*", layout: "writing_layout"
+page "/sourdough/*", layout: "writing_layout"
+page "/electronics/*", layout: "writing_layout"
 
 ###############
 ##### END #####

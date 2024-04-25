@@ -19,9 +19,12 @@
   </head>
   <body>
     <%= partial 'partials/left'%>
-    <div id="content-container">
-      <div id="content">
-        <%= yield %>
+    <div style="display: flex; flex-direction: column;">
+      <%= partial 'partials/mobile-menu' %>
+      <div id="content-container">
+        <div id="content">
+          <%= yield %>
+        </div>
       </div>
     </div>
     <%= partial 'partials/menu'%>

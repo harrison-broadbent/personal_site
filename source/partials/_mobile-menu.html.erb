@@ -1,0 +1,17 @@
+<div id="mobile-menu">
+  <span class="title">Harrison Broadbent | <a href="mailto:mail@harrisonbroadbent.com">Email me</a></span>
+  <ul>
+    <% Dir.entries('source').sort.each do |page| %>
+      <%# Regex to filter out "." and ".." directories found by Dir.entries %>
+      <% if not page =~ /^[.]+/ %>
+        <%# Filter out folders and index file (as its empty), and anything beginning with an underscore %>
+        <% if page.include? "html" and not page.include? "index" and not page[0] == "_" %>
+          <li>
+            <% page_name_components = page.split(".") %>
+            <%= link_to page_name_components[0].to_s.capitalize, "/#{page_name_components[0,2].join('.')}" %>
+          </li>
+        <% end%>
+      <% end %>
+    <% end %>
+  </ul>
+</div>

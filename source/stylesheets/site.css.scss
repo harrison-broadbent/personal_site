@@ -16,6 +16,10 @@ html {
   background-color: $background-color;
   body {
     height: 100%;
+
+    @media (max-width: $phone) {
+      margin: auto 16px;
+    }
   }
 }
 
@@ -54,12 +58,24 @@ a {
 #left {
   min-width: 0;
   width: 12vw;
+
+  @media (max-width: $phone) {
+    width: 0;
+  }
 }
 
 #content-container {
   #content {
-    max-width: 500px;
+    max-width: 768px;
+
+    #content-heading {
+      h1 {
+        margin-bottom: 0.25rem;
+      }
+      margin-bottom: 2rem;
+    }
   }
+
   flex-grow: 1;
 }
 
@@ -68,9 +84,34 @@ a {
   height: fit-content;
   border: 1px solid #333;
   padding: 1rem;
+  margin: 0 auto;
   ul {
     list-style: none;
     padding-inline-start: 20px;
+  }
+
+  @media (max-width: $phone) {
+    display: none;
+  }
+}
+
+#mobile-menu {
+  display: grid;
+  text-align: right;
+  height: fit-content;
+  border: 1px solid #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    list-style: none;
+    padding-inline-start: 20px;
+  }
+
+  @media (min-width: $phone) {
+    display: none;
   }
 }
 
@@ -124,6 +165,13 @@ a {
 table {
   border: 1px solid #333;
   padding: 1rem;
+
+  tr > td {
+    padding-bottom: 16px;
+  }
+  tr:last-child > td {
+    padding-bottom: 0px;
+  }
 }
 
 // Code blocks
