@@ -5,8 +5,7 @@ date: 2024-04-25 20:29
 
 Here's a breakdown of the tools I bought to kick-start my woodworking toolkit.
 
-I've broken down the tools I purchased upfront to give you an idea of a pretty baseline setup. I'm also planning on coming back to this article occasionally to give any updates on a certain part or tool.
-—
+I've broken down the tools I purchased upfront to give you an idea of a pretty baseline setup. I'm also planning on coming back to this article occasionally to give any updates on a certain part or tool —
 
 | Name                                                                | Purpose                                                                                                                                                                                                                                                                              | Price (AUD) |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
