@@ -40,5 +40,5 @@ page "/electronics/*", layout: "writing_layout"
 ###############
 
 # minify files
-activate :minify_css
+# activate :minify_css # does not work with tailwindcss
 activate :minify_javascript

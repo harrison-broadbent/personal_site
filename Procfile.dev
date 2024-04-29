@@ -1,0 +1,2 @@
+server: bundle exec middleman server
+css: npx tailwindcss -i ./source/stylesheets/main.css -o ./source/stylesheets/tailwind.css --watch

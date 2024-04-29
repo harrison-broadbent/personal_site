@@ -82,7 +82,6 @@ a {
 
     p img {
       display: block;
-      // margin: 0 auto;
       margin-bottom: 0.5rem;
     }
 
@@ -93,42 +92,6 @@ a {
   }
 
   flex-grow: 1;
-}
-
-#menu {
-  text-align: right;
-  height: fit-content;
-  border: 1px solid #333;
-  padding: 1rem;
-  margin: 0 auto;
-  ul {
-    list-style: none;
-    padding-inline-start: 20px;
-  }
-
-  @media (max-width: $phone) {
-    display: none;
-  }
-}
-
-#mobile-menu {
-  display: grid;
-  text-align: left;
-  height: fit-content;
-  border: 1px solid #333;
-  padding: 1rem;
-  margin-bottom: 1rem;
-
-  ul {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    list-style: none;
-    padding-inline-start: 20px;
-  }
-
-  @media (min-width: $phone) {
-    display: none;
-  }
 }
 
 #gallery-container {
