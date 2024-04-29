@@ -1,11 +1,10 @@
 <!doctype html>
 <html>
   <head>
-    <%# only include tag in production %>
     <% if app.build? %>
+      <%# only include tag in production %>
       <%= partial 'partials/tracking_snippet' %>
     <% end %>
-
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Use the title from a page's frontmatter if it has one -->
@@ -15,21 +14,20 @@
     <%= javascript_include_tag "site" %>
     <%= auto_display_meta_tags %>
   </head>
-
   <body>
     <%= partial 'partials/left'%>
     <div style="display: flex; flex-direction: column;">
       <%= partial 'partials/mobile-menu' %>
       <div id="content-container">
         <div id="content">
-        <div id="content-heading">
-          <h1><%= current_page.data.title %></h1>
-          <span class="byline"><%= current_page.data.date %></span>
-        </div>
-        <%= yield %>
-        <div id="contact-table">
-          <%= partial 'partials/contact-table' %>
-        </div>
+          <div id="content-heading">
+            <h1><%= current_page.data.title %></h1>
+            <span class="byline"><%= current_page.data.date %></span>
+          </div>
+          <%= yield %>
+          <div id="contact-table">
+            <%= partial 'partials/contact-table' %>
+          </div>
         </div>
       </div>
     </div>
