@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="bg-stone-50 font-sans text-sm text-stone-700">
   <head>
     <% if app.build? %>
       <%# only include tag in production %>
@@ -15,7 +15,7 @@
     <%= javascript_include_tag "site" %>
     <%= auto_display_meta_tags %>
   </head>
-  <body>
+  <body class="flex h-full m-4 sm:m-0">
     <%= partial 'partials/left'%>
     <div style="display: flex; flex-direction: column;">
       <%= partial 'partials/mobile-menu' %>
@@ -23,10 +23,10 @@
         <div id="content">
           <div id="content-heading">
             <h1><%= current_page.data.title %></h1>
-            <span class="byline"><%= current_page.data.date %></span>
+            <span class="text-xs text-stone-500"><%= current_page.data.date %></span>
           </div>
           <%= yield %>
-          <div id="contact-table">
+          <div id="contact-table" class="pt-16">
             <%= partial 'partials/contact-table' %>
           </div>
         </div>

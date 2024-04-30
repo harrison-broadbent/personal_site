@@ -3,66 +3,10 @@
 // @import "./quote_blocks.css";
 
 // COLORS
-$background-color: white;
 $body-text-color: #333;
-$quote-text-color: lighten($body-text-color, 20%);
 
 // MEDIA QUERY BREAKPOINTS
 $phone: 640px;
-$tablet: 768px;
-$desktop: 1024px;
-
-html {
-  background-color: $background-color;
-  body {
-    height: 100%;
-
-    @media (max-width: $phone) {
-      margin: auto 16px;
-    }
-  }
-}
-
-h1 {
-  margin: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: row;
-
-  padding: 4vh 2vh;
-  @media (max-width: $phone) {
-    padding: 2vh 0vh;
-  }
-
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  // font-size: 13px;
-  font-size: 0.9rem;
-
-  color: $body-text-color;
-}
-
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.5);
-  }
-}
-
-#left {
-  min-width: 0;
-  width: 12vw;
-
-  @media (max-width: $phone) {
-    width: 0;
-  }
-}
 
 #content-container {
   #content {
@@ -94,53 +38,6 @@ a {
   flex-grow: 1;
 }
 
-#gallery-container {
-  line-height: 0;
-  column-count: 3;
-  column-gap: 0px;
-
-  img {
-    width: 95%;
-    height: auto;
-    padding-bottom: 5%;
-  }
-}
-
-@media (max-width: $phone) {
-  #gallery-container {
-    column-count: 2;
-  }
-}
-
-.gallery-padding-top {
-  padding-top: 2rem;
-}
-
-.hero-img-small {
-  max-height: 130px;
-}
-
-.img-medium {
-  max-height: 300px;
-}
-
-.img-responsive {
-  width: 100%;
-}
-
-.byline {
-  font-size: 11px;
-  color: #666;
-}
-
-.text-underline {
-  text-decoration: underline;
-}
-
-.gist {
-  width: calc(min(1000px, 80vw)) !important;
-}
-
 table {
   border: 1px solid #333;
   padding: 1rem;
@@ -148,6 +45,7 @@ table {
   tr > td {
     padding-bottom: 16px;
   }
+
   tr:last-child > td {
     padding-bottom: 0px;
   }
@@ -159,8 +57,4 @@ div.highlight {
   border: 1px solid black;
   overflow-x: auto;
   padding: 1em;
-}
-
-#contact-table {
-  padding-top: 4rem;
 }

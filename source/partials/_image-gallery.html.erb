@@ -1,26 +1,24 @@
-<%# pass as locals: 
+<%# pass as locals:
 	path: "images/electronics/main"	|| where are the images located?
 	unsplash_link: true / false || should we link images to unsplash?
 
 	example link
 	<%= partial 'partials/image-gallery', :locals => { :path = "images/electronics/freeform-blinky", unsplash_link?: true}%>
-
-<%# 
+<%#
 
 	image gallery partial:
 	 - filters out pictures containing "diagram".
  %>
-
-<div id="gallery-container">
-	<% sitemap.resources.shuffle.each do |resource| %>
-		<% if resource.path.start_with?( path ) and !resource.path.include?("diagram") %>
-			<% if unsplash_link %>
-				<% link_to "https://unsplash.com/photos/" + resource.path.split("-")[2] do %>
-					<%= image_tag resource.path %>
-				<% end %>
-			<% else %>
-				<%= image_tag resource.path %>
-			<% end%>
-		<% end %>
-	<% end %>  
+<div class="leading-[0px] columns-2 sm:columns-3 gap-0 w-3/4">
+  <% sitemap.resources.shuffle.each do |resource| %>
+    <% if resource.path.start_with?( path ) and !resource.path.include?("diagram") %>
+      <% if unsplash_link %>
+        <% link_to "https://unsplash.com/photos/" + resource.path.split("-")[2] do %>
+          <%= image_tag resource.path, class: "w-[95%] h-auto pb-3" %>
+        <% end %>
+      <% else %>
+        <%= image_tag resource.path, class: "w-[95%] h-auto pb-3" %>
+      <% end%>
+    <% end %>
+  <% end %>
 </div>
