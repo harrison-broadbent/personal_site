@@ -5,7 +5,6 @@ activate :autoprefixer do |prefix|
 end
 
 activate :meta_tags
-activate :sitemap, :gzip => false, :hostname => "https://harrisonbroadbent.com"
 
 #-------------#
 

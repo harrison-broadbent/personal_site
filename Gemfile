@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 gem "middleman", "~> 4.5.0"
 gem "middleman-router"
-gem "middleman-sitemap"
 
 # synatx hightlighting
 gem "middleman-syntax", "~> 3.4.0"
