@@ -13,6 +13,49 @@ a {
   @apply text-stone-600 hover:text-stone-500;
 }
 
+/* code blocks */
+div.highlight {
+  @apply bg-stone-100 border border-solid overflow-x-auto px-3 py-1;
+}
+
 .gist-file {
   @apply p-2 m-2;
+}
+
+/* markdown quote block */
+blockquote {
+  @apply bg-stone-100 border border-l-8 border-solid border-stone-300 my-6 mx-0 px-3 text-stone-600 rounded-sm;
+}
+
+table {
+  @apply border border-solid border-stone-900 p-4;
+}
+
+table tr > td {
+  @apply pb-4;
+}
+
+table tr:last-child > td {
+  @apply pb-0;
+}
+
+/* rendered content */
+#content-heading {
+  @apply mb-8;
+}
+
+#content-heading h1 {
+  @apply mb-1;
+}
+
+#content p:has(img + em) {
+  @apply p-3;
+}
+
+#content p img {
+  @apply block mb-2;
+}
+
+#content p img + em {
+  @apply text-stone-500 text-sm;
 }

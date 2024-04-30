@@ -19,4 +19,6 @@ Make sure you use a square to align the two boards! The jig is pretty useless if
 
 Overall it works well!
 
-> Note: Adapt this jig to your tools! Make sure everything will fit and have clearance. Initially I built this with two 18mm pieces of wood, which blocked the saw from sliding due to a part of the saw protruding on the left side. Questionable tool design choices aside, make sure you're building a jig for _your_ tool and not just copying me blindly!
+> Note: Adapt this jig to your tools! Make sure everything will fit and have clearance.
+>
+> Initially I built this with two 18mm pieces of wood, which blocked the saw from sliding due to a part of the saw protruding on the left side. Make sure you're building a jig for _your_ tool and not just copying me blindly!

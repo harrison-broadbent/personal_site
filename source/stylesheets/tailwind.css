@@ -122,13 +122,12 @@
   margin: 1rem
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto
-}
-
 .mb-4 {
   margin-bottom: 1rem
+}
+
+.mr-0 {
+  margin-right: 0px
 }
 
 .flex {
@@ -176,12 +175,16 @@
   width: 100%
 }
 
-.w-auto {
-  width: auto
-}
-
 .min-w-0 {
   min-width: 0px
+}
+
+.max-w-xl {
+  max-width: 36rem
+}
+
+.grow {
+  flex-grow: 1
 }
 
 .list-none {
@@ -195,6 +198,10 @@
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr))
+}
+
+.flex-col {
+  flex-direction: column
 }
 
 .gap-0 {
@@ -283,6 +290,11 @@
   color: rgb(68 64 60 / var(--tw-text-opacity))
 }
 
+.text-stone-950 {
+  --tw-text-opacity: 1;
+  color: rgb(12 10 9 / var(--tw-text-opacity))
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
 }
@@ -307,9 +319,86 @@ a:hover {
   color: rgb(120 113 108 / var(--tw-text-opacity))
 }
 
+/* code blocks */
+
+div.highlight {
+  overflow-x: auto;
+  border-width: 1px;
+  border-style: solid;
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem
+}
+
 .gist-file {
   margin: 0.5rem;
   padding: 0.5rem
+}
+
+/* markdown quote block */
+
+blockquote {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 0.125rem;
+  border-width: 1px;
+  border-left-width: 8px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(214 211 209 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(87 83 78 / var(--tw-text-opacity))
+}
+
+table {
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(28 25 23 / var(--tw-border-opacity));
+  padding: 1rem
+}
+
+table tr > td {
+  padding-bottom: 1rem
+}
+
+table tr:last-child > td {
+  padding-bottom: 0px
+}
+
+/* rendered content */
+
+#content-heading {
+  margin-bottom: 2rem
+}
+
+#content-heading h1 {
+  margin-bottom: 0.25rem
+}
+
+#content p:has(img + em) {
+  padding: 0.75rem
+}
+
+#content p img {
+  margin-bottom: 0.5rem;
+  display: block
+}
+
+#content p img + em {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(120 113 108 / var(--tw-text-opacity))
 }
 
 @media (min-width: 640px) {

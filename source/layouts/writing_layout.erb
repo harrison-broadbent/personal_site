@@ -15,12 +15,12 @@
     <%= javascript_include_tag "site" %>
     <%= auto_display_meta_tags %>
   </head>
-  <body class="flex h-full m-4 sm:m-0">
+  <body class="flex h-full m-4 sm:m-0 p-2 sm:p-8">
     <%= partial 'partials/left'%>
-    <div style="display: flex; flex-direction: column;">
+    <div class="flex flex-col w-full">
       <%= partial 'partials/mobile-menu' %>
       <div id="content-container">
-        <div id="content">
+        <div id="content" class="max-w-xl">
           <div id="content-heading">
             <h1><%= current_page.data.title %></h1>
             <span class="text-xs text-stone-500"><%= current_page.data.date %></span>
