@@ -4,7 +4,7 @@ title: About
 
 # About
 
-![photo-of-harrison](images/profile.jpg){:class="hero-img-small"}
+![photo-of-harrison](images/profile.jpg){:class="max-h-32"}
 
 I live in Melbourne, Australia.
 

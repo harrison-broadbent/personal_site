@@ -28,5 +28,7 @@ I've broken down the tools I purchased upfront to give you an idea of a pretty b
 | **Total**                                                           |                                                                                                                                                                                                                                                                                      | **$1287**   |
 
 > Note: I went with Ryobi / Team Green!
-> <br/>
-> It just didn't make sense to fork out 1.5-2x for tools from more professional brands when I'm just going to use these for DIY and home renovations. I'm hoping that investing a bit more into the brushless drills and circular saw will future-proof them a bit. Apart from the prices, I was attracted by the long-lived battery platform, the _huge_ range of Ryobi tools beyond the woodworking classics (particularly for gardening / home care) and the 4+2 year extended warranty. Fingers crossed 🤞 I made the right choice!
+>
+> I couldn't justify spending 1.5-2x for tools from more professional brands when I'm just going to use these for DIY and home renovations (I live in Australia which likely affects tool prices). I'm hoping that investing a bit more into the brushless drills and circular saw will future-proof them a bit.
+>
+> Apart from the prices, I was attracted by the long-lived battery platform, the _huge_ range of Ryobi tools beyond the woodworking classics (particularly for gardening / home care) and the 4+2 year extended warranty. Fingers crossed 🤞 I made the right choice!

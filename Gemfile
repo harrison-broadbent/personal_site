@@ -12,6 +12,7 @@ gem "middleman-meta-tags"
 
 # markdown parser
 gem "kramdown"
+gem "kramdown-parser-gfm"
 
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 gem "wdm", "~> 0.1", platforms: [:mswin, :mingw, :x64_mingw]
