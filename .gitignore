@@ -3,5 +3,6 @@
 .DS_Store
 .sass-cache
 build/
-.vscode
+
+# node deps
 node_modules/*

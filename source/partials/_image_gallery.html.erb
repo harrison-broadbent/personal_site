@@ -3,21 +3,21 @@
 	unsplash_link: true / false || should we link images to unsplash?
 
 	example link
-	<%= partial 'partials/image-gallery', :locals => { :path = "images/electronics/freeform-blinky", unsplash_link?: true}%>
+	<%= partial 'partials/image_gallery', :locals => { :path = "images/electronics/freeform-blinky", unsplash_link?: true}%>
 <%#
 
 	image gallery partial:
 	 - filters out pictures containing "diagram".
  %>
-<div class="leading-[0px] columns-2 sm:columns-3 gap-0 w-3/4">
+<div class="columns-2 sm:columns-3 gap-3 border border-stone-100 rounded-md p-2">
   <% sitemap.resources.shuffle.each do |resource| %>
     <% if resource.path.start_with?( path ) and !resource.path.include?("diagram") %>
       <% if unsplash_link %>
-        <% link_to "https://unsplash.com/photos/" + resource.path.split("-")[2] do %>
-          <%= image_tag resource.path, class: "w-[95%] h-auto pb-3" %>
+        <% link_to "https://unsplash.com/photos/" + resource.path.split("-")[2], class: "after:content-['']" do %>
+          <%= image_tag resource.path, class: "m-0 rounded-sm hover:brightness-105 transition-all" %>
         <% end %>
       <% else %>
-        <%= image_tag resource.path, class: "w-[95%] h-auto pb-3" %>
+        <%= image_tag resource.path, class: "h-auto m-0 rounded-sm" %>
       <% end%>
     <% end %>
   <% end %>

@@ -4,7 +4,7 @@ title: Reading
 
 # Reading
 
-Some books I've loved. The [*] is reserved for _extra good_ books 😉.
+Some books I'd recommend (the [*] is for _extra good_ books 😉) —
 
 ### Non-fiction
 

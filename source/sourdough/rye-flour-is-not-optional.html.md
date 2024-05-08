@@ -3,6 +3,8 @@ title: Feeding your sourdough starter rye flour isn't optional, it's a must
 date: 2023-04-25 20:38
 ---
 
+# Feeding your sourdough starter rye flour isn't optional, it's a must
+
 Basically what the title says.
 
 When I was starting out and reading blog articles / watching videos, most of them seemed to make out like rye flour was optional to starting (and maintaining) a starter.

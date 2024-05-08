@@ -3,6 +3,8 @@ title: The fridge method of preserving sourdough starter
 date: 2024-04-25 20:38
 ---
 
+# The fridge method of preserving sourdough starter
+
 **For a long time, I was a feed-your-starter-daily type of person.**
 
 **While that's probably very healthy for the starter, I got sick of it pretty quickly!** I started loathing those few minutes each morning spent weighing out flour and water for the feeding (and the subsequent sticky cleanup).

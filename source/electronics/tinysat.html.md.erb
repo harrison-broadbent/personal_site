@@ -3,8 +3,9 @@ title: tinysat
 date: "2021-07-23"
 ---
 
-![photo-of-tinysat](images/electronics/freeform-tinysat/tinysat-desk.jpg){:class="max-h-32"}
+# tinysat
 
+![photo-of-tinysat](images/electronics/freeform-tinysat/tinysat-desk.jpg){:class="max-h-32"}
 Once again, based on a similar project from [Mohit Bhoite](https://www.bhoite.com/sculptures/tiny-cube-sat/).
 
 ### Form
@@ -12,8 +13,7 @@ Once again, based on a similar project from [Mohit Bhoite](https://www.bhoite.co
 I designed this sculpture to be quite small.
 
 The main body is a 15x15x15mm cube, containing a handful of necessary components.
-
-tinysat is reminiscent my other sculptures, in particular [2Sat](/electronics/2sat.html). Again, I have used 0.8mm brass wire, which by now has acquired a beautiful, oxidised, orange-y colour.
+tinysat is reminiscent my other sculptures, in particular [2Sat](/electronics/2sat.html). Again, I have used 0.8mm brass wire, which by now has acquired a beautiful, oxidised-orange colour.
 
 I intend to mount this sculpture on some sort of wooden base via a vertical brass rod, but for now, it's free-floating. Almost like a real satellite! 🛰
 
@@ -21,33 +21,23 @@ I intend to mount this sculpture on some sort of wooden base via a vertical bras
 
 Rather than use discrete electronics to build this flasher, I used an ATTINY13 chip.
 
-First, this made this project a lot simpler, as most of the functionality can be managed with software.
-Second, it reduced the total volume of electrical components required.
+First, this made this project a lot simpler, as most of the functionality can be managed with software. Second, it reduced the total volume of electrical components required.
 
 The circuit diagram for the device -
-
 ![circuit-diagram](images/electronics/freeform-tinysat/circuit_diagram.png){:class="w-full p-2"}
-
-
 Some key points:
 
 - A diode ensures the capacitor charge does not flow back into the panels, and powers the ATTINY only.
-
 - In particular, I used a germanium diode instead of a silicon one. This is due to their lower forward-bias voltage (0.3V vs. 0.7V). This lets the device run for a bit longer before turning off.
-
 - There is a feedback wire running from pin 7 of the ATTINY to the base of the diode. The solar cells have a second job as a ghetto light sensor. We read the voltage across them and use that to determine whether it is dark yet. The code below illustrates this.
 
 The code flashed to the ATTINY13 chip -
 
 <script src="https://gist.github.com/harrison-broadbent/de336ebcd2cd63bf62a04b5a00fb7064.js"></script>
 
-We take advantage of the low-power options in this chip to reduce the idle current draw to about 30µA. This ramps up to 5mA when the LED is flashing.
-
-We keep the chip in low-power mode for as much time as possible. In this mode, the chip is almost completely shut down.
-The built-in watchdog timer wakes the chip every few seconds. The chip then measures the panel voltage and then flashes the LED if appropriate.
-
-
-
+- We take advantage of the low-power options in this chip to reduce the idle current draw to about 30µA. This ramps up to 5mA when the LED is flashing.
+- We keep the chip in low-power mode for as much time as possible. In this mode, the chip is almost completely shut down.
+- The built-in watchdog timer wakes the chip every few seconds. The chip then measures the panel voltage and then flashes the LED if appropriate.
 
 ### Parts
 
@@ -58,8 +48,6 @@ The key parts for this circuit -
 - IXYS SM400K10L monocrystalline solar cells
 - Germanium diode
 
-
-
 ### Gallery
 
-<%= partial("partials/image-gallery", :locals => { :path => "images/electronics/freeform-tinysat/", :unsplash_link => false})%>
+<%= partial("partials/image_gallery", :locals => { :path => "images/electronics/freeform-tinysat/", :unsplash_link => false})%>
