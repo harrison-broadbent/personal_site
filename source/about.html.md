@@ -2,17 +2,17 @@
 title: About
 ---
 
-# About
-
 ![photo-of-harrison](images/profile.jpg){:class="max-h-32"}
 
 I live in Melbourne, Australia.
 
-I currently work at [HotDoc](https://hotdoc.com.au), and blog at [RailsNotes](https://railsnotes.xyz) in my spare time. You can learn more at [/now](/now.html).
+I currently work at [HotDoc](https://hotdoc.com.au) and run the [RailsNotes blog](https://railsnotes.xyz). You can learn more at [/now](/now.html).
 
-Before HotDoc, I spent 6 months building payments systems at an Indonesian tech unicorn, and 3 years working in MedTech at [Seer Medical](https://seermedical.com), in a bit of a strange (but fun!) mix of manufacturing / production management / software engineering.
+Before HotDoc, I built payments systems at an Indonesian tech unicorn, and spent 3 years working at [Seer Medical](https://seermedical.com), in a strange (but fun!) mix of manufacturing / production management / software engineering.
 
-I particularly enjoy [coding](software), [reading](reading), [running](running), [electronics](electronics) and camping. Recently, I've also been getting into [sourdough baking](sourdough) and [woodworking](woodworking).
+I particularly enjoy [coding](software), [reading](reading), running, [electronics](electronics) and camping. Recently, I've also been getting into [sourdough baking](sourdough) and [woodworking](woodworking).
+
+### You can find me here:
 
 |RailsNotes| [railsnotes.xyz](https://railsnotes.xyz)|
 | Github | [harrison-broadbent](https://github.com/harrison-broadbent) |

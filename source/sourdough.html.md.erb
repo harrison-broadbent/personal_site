@@ -1,16 +1,17 @@
 ---
 title: Sourdough
+blog: sourdough
 ---
 
 # Sourdough
 
 Recently, I've been getting into sourdough baking.
 
-Below are some short posts I've written summarizing some of the things i've learnt along the way — 
+Below are some short posts I've written summarizing some of the things i've learnt along the way —
 
-<%= partial 'partials/folder-list', :locals => { path: "sourdough"} %>
+<%= partial "partials/article_list" %>
 
 <div class="pt-8">
 	<p>Some unsolicited bread pics: </p>
-	<%= partial("partials/image-gallery", :locals => { :path => "images/sourdough/main/", :unsplash_link => false})%>
+	<%= partial("partials/image_gallery", :locals => { :path => "images/sourdough/main/", :unsplash_link => false})%>
 </div>

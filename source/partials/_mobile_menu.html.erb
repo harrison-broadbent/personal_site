@@ -1,0 +1,10 @@
+<div class="grid sm:hidden text-left h-fit border border-solid border-stone-900 p-4 mb-4">
+  <span class="font-display">Harrison Broadbent</span>
+  <ul class="mt-4 columns-3">
+    <% config.menu_pages.each do |name, path| %>
+      <li>
+        <%= link_to name, path, class: "text-stone-700" %>
+      </li>
+    <% end %>
+  </ul>
+</div>

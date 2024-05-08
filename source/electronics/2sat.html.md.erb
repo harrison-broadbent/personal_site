@@ -3,47 +3,38 @@ title: 2Sat
 date: "2020-05-07"
 ---
 
+# 2sat
+
 ![photo-of-2sat](images/electronics/freeform-2sat/2sat-white.jpg){:class="max-h-32"}
-
-2Sat was my first attempt at a satellite sculpture. 
-
-Check out my second attempt - [tinysat](/electronics/tinysat.html)
+2Sat was my first satellite sculpture. Check out my second - [tinysat](/electronics/tinysat.html)
 
 ### Form
 
-The heart of 2Sat is a small [pummer](http://solarbotics.net/library/circuits/bot_pummer.html) [circuit](https://www.google.com/search?q=pummer+circuit&sxsrf=ALeKk03lnZuOpiB6q0gl12fADBhYg_LHQw:1588761573167&source=lnms&tbm=isch&sa=X&ved=2ahUKEwii5s2Jhp_pAhUymeYKHXGZCnQQ_AUoAXoECAwQAw&biw=1440&bih=772#imgrc=Dxef6Kxj9arINM). 
+The heart of 2Sat is a small [pummer](http://solarbotics.net/library/circuits/bot_pummer.html) [circuit](https://www.google.com/search?q=pummer+circuit&sxsrf=ALeKk03lnZuOpiB6q0gl12fADBhYg_LHQw:1588761573167&source=lnms&tbm=isch&sa=X&ved=2ahUKEwii5s2Jhp_pAhUymeYKHXGZCnQQ_AUoAXoECAwQAw&biw=1440&bih=772#imgrc=Dxef6Kxj9arINM).
 
-Solar panels sit on either side of the satellite, and at the base is a large capacitor, which stores the needed energy. 
+Solar panels sit on either side of the satellite, and at the base is a large capacitor, which stores the needed energy. The angle of the panels was tricky to decide on, as that changes how the satellite looks. After a bit of playing around, I chose an angle that tilted them at about a 30º angle.
 
-For this sculpture, I used 0.8mm brass wire for the structure, and I'm pleased with the results. 
-
-The angle of the panels was tricky to decide on, as that changes how the satellite looks. After a bit of playing around, I chose an angle that tilted them at about a 30º angle. 
-
-The only other key design feature is the blinking led that extends from the top of the satellite. 2Sat has a total height of ~85mm, with the body + capacitor measuring at 45mm high, and the LED extending 40mm. 
+For this sculpture, I used 0.8mm brass wire for the structure, and I'm pleased with the results. The only other key design feature is the blinking LED that extends from the top of the satellite. 2Sat has a total height of ~85mm, with the body + capacitor measuring at 45mm high, and the LED extending 40mm.
 
 ### Function
-The core of this sculpture is a small charging circuit, combined with a [pummer](http://solarbotics.net/library/circuits/bot_pummer.html) [circuit](https://www.google.com/search?q=pummer+circuit&sxsrf=ALeKk03lnZuOpiB6q0gl12fADBhYg_LHQw:1588761573167&source=lnms&tbm=isch&sa=X&ved=2ahUKEwii5s2Jhp_pAhUymeYKHXGZCnQQ_AUoAXoECAwQAw&biw=1440&bih=772#imgrc=Dxef6Kxj9arINM). 
 
-During the day, the solar cells charge up the capacitor. Then, after dark, the capacitor begins to discharge and power the pummer circuit. 
-This nocturnal behaviour doesn't need any extra sensors. Instead, a clever circuit design allows the solar panels to act as both a source of power and a light sensor. 
+The core of this sculpture is a small charging circuit, combined with a [pummer](http://solarbotics.net/library/circuits/bot_pummer.html) [circuit](https://www.google.com/search?q=pummer+circuit&sxsrf=ALeKk03lnZuOpiB6q0gl12fADBhYg_LHQw:1588761573167&source=lnms&tbm=isch&sa=X&ved=2ahUKEwii5s2Jhp_pAhUymeYKHXGZCnQQ_AUoAXoECAwQAw&biw=1440&bih=772#imgrc=Dxef6Kxj9arINM).
 
-The pummer circuit produces a short pulse which gets smoothed by a 100uF capacitor in parallel with the LED. 
-This is what creates the pumming, blinking effect. 
+During the day, the solar cells charge up the capacitor. Then, after dark, the capacitor begins to discharge and power the pummer circuit.
 
-There is room for improvement. 
+This nocturnal behaviour doesn't need any extra sensors. Instead, a clever circuit design allows the solar panels to act as both a source of power and a light sensor.
+The pummer circuit produces a short pulse which gets smoothed by a 100uF capacitor in parallel with the LED. This is what creates the pumming, blinking effect (there is room for improvement).
 
-The pumming effect is not ideal — with a charged capacitor, the LED doesn't turn off after flashing.  Instead, it dims and remains on for 3-4 seconds. 
-As the main capacitor discharged, however, the pummer approaches ideal operations. 
+The pumming effect is not ideal — with a charged capacitor, the LED doesn't turn off after flashing. Instead, it dims and remains on for 3-4 seconds.
+As the main capacitor discharged, however, the pummer approaches ideal operations.
+I would also adjust the resistor across the solar panel. With the current value of 1MΩ, the circuit turns on earlier than I would like.
 
-I would also adjust the resistor across the solar panel. 
-With the current value of 1MΩ,  the circuit turns on earlier than I would like. 
-
-The circuit diagram below (not mine) shows how to construct this circuit - 
+The circuit diagram below (not mine) shows how to construct this circuit -
 ![pummer-circuit-diagram](images/electronics/pummer-circuit-diagram.jpg){:class="w-3/4 p-2"}
 
 ### Parts
 
-Key parts for the sculpture were - 
+Key parts for the sculpture were -
 
 - 74HC240 octal buffer / line driver
 - 1F 5.5V supercapacitor
@@ -52,4 +43,4 @@ Key parts for the sculpture were -
 
 ### Gallery
 
-<%= partial("partials/image-gallery", :locals => { :path => "images/electronics/freeform-2sat/", :unsplash_link => false})%>
+<%= partial("partials/image_gallery", :locals => { :path => "images/electronics/freeform-2sat/", :unsplash_link => false})%>

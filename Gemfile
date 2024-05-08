@@ -1,20 +1,22 @@
 source "https://rubygems.org"
 
-gem "middleman", "~> 4.5.0"
-gem "middleman-router"
+# Standard Middleman Gems:
+#
+gem "middleman", "~> 4.5"
+gem "middleman-autoprefixer", "~> 3.0"
+gem "middleman-blog", "~> 4.0.3"    # blog support
+gem "middleman-livereload"          # live dev reloading
 
-# synatx hightlighting
-gem "middleman-syntax", "~> 3.4.0"
-gem "middleman-autoprefixer", "~> 2.7"
-
-# auto meta tag insertion
-gem "middleman-meta-tags"
-
-# markdown parser
-gem "kramdown"
+# Markdown support:
+#
+gem "kramdown"                      # markdown parser
 gem "kramdown-parser-gfm"
+gem "middleman-syntax", "~> 3.4.0"  # code synatx hightlighting
+gem "nokogiri"                      # blog post summaries
 
+# Misc gems (from Middleman):
+#
+gem "builder"                       # supports .builder.xml for sitemap
+gem "terser", "~> 1.1"              # minifies .js files
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 gem "wdm", "~> 0.1", platforms: [:mswin, :mingw, :x64_mingw]
-
-gem "webrick", "~> 1.7"

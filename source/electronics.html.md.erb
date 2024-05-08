@@ -1,19 +1,20 @@
 ---
 title: Electronics
+blog: electronics
 ---
 
 # Electronics
 
 Ever since I was a kid, I've been interested in electronics.
 
-Occasionally, I build freeform circuit sculptures. I also love photographing electronics circuits and components. 
+Occasionally, I build freeform circuit sculptures. I also love photographing electronics circuits and components.
 
 Some recent projects -
 
-<%= partial 'partials/folder-list', :locals => { path: "electronics"} %>
+<%= partial "partials/article_list" %>
 
 <div class="pt-8">
 	<p>And a collection of electronics photos: </p>
-	<%= partial("partials/image-gallery", :locals => { :path => "images/electronics/main/", :unsplash_link => true})%>
+	<%= partial("partials/image_gallery", :locals => { :path => "images/electronics/main/", :unsplash_link => true})%>
 </div>
 <%= link_to 'see more on unsplash','https://unsplash.com/@harrisonbroadbent'%>

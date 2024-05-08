@@ -6,10 +6,11 @@ module.exports = {
     "./source/layouts/*.{html,erb.md}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: ["DM Sans", "sans-serif"],
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
-  corePlugins: {
-    preflight: false,
-  },
 };

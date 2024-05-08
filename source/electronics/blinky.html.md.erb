@@ -3,36 +3,28 @@ title: Blinky
 date: "2020-04-08"
 ---
 
-![photo-of-blinky](images/electronics/freeform-blinky/blinky-body.jpg){:class="max-h-32"}
+# Blinky
 
-Blinky was my first attempt at creating a freeform electronics sculpture. 
+![photo-of-blinky](images/electronics/freeform-blinky/blinky-body.jpg){:class="max-h-32"}
+Blinky was my first attempt at creating a freeform electronics sculpture.
 
 ### Form
-I designed Blinky to be minimal. 
 
-The sculpture is split into 2 main sections, the 'head' and 'body', joined by a small wire neck. 
-Another wire runs from the base and into the Arduino microcontroller to provide power. 
- 
+I designed Blinky to be minimal. The sculpture is split into 2 main sections, the 'head' and 'body', joined by a small wire neck.
+
+Another wire runs from the base and into the Arduino microcontroller to provide power.
+
 ### Function
 
-Blinky has 2 states - sleeping, and awake. 
-An MPU6050 module detects changes in force on the sculpture, and when it detects a bump, Blinky will 'wake up'. 
-It will 'fall asleep' again if it's ignored for a bit. 
+Blinky has 2 states - sleeping, and awake. An MPU6050 module detects changes in force on the sculpture, and when it detects a bump, Blinky will 'wake up'. It will 'fall asleep' again if it's ignored for a bit. A moving mean average filters the output from the MPG 6050. A 75 sample mean determines a rolling average, and then the program takes 2 samples from this.
 
-When he's awake, Blinky cycles through different expressions. These include blinking, looking around, or whirling his mouth. 
-When he falls asleep, Blinky chooses between a static sleeping expression and a snoring animation. 
+When he's awake, Blinky cycles through different expressions. These include blinking, looking around, or whirling his mouth. When he falls asleep, Blinky chooses between a static sleeping expression and a snoring animation.
 
-A moving mean average filters the output from the MPG 6050. 
-
-A 75 sample mean determines a rolling average, and then the program takes 2 samples from this.  
-
-There is a micro-USB port powering this sculpture, at the back of the wooden base. 
-
-The full source code for this project is available here - [blinky source code](https://github.com/harrison-broadbent/blinky).
+There is a micro-USB port powering this sculpture, at the back of the wooden base. The full source code for this project is available here - [blinky source code](https://github.com/harrison-broadbent/blinky).
 
 ### Parts
 
-Key components of the sculpture are - 
+Key components of the sculpture are -
 
 - Arduino Pro Mini + FTDI USB Programmer.
 - 7 segment display.
@@ -42,5 +34,4 @@ Key components of the sculpture are -
 
 ### Gallery
 
-<%= partial("partials/image-gallery", :locals => { :path => "images/electronics/freeform-blinky/", :unsplash_link => false})%>
-
+<%= partial("partials/image_gallery", :locals => { :path => "images/electronics/freeform-blinky/", :unsplash_link => false})%>

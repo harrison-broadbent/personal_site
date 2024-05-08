@@ -1,22 +1,6 @@
-<div class="hidden sm:block text-right h-fit border-solid border border-stone-900 p-4 mr-0">
-  <span class="text-stone-950">Harrison Broadbent</span>
-  <ul class="list-none ps-5">
-    <% Dir.entries('source').sort.each do |page| %>
-      <%# Regex to filter out "." and ".." directories found by Dir.entries %>
-      <% if not page =~ /^[.]+/ %>
-        <%# Filter out folders and index file (as its empty), and anything beginning with an underscore %>
-        <% if page.include? "html" and not page.include? "index" and not page[0] == "_" %>
-          <li>
-            <% page_name_components = page.split(".") %>
-            <%= link_to page_name_components[0].to_s.capitalize, "/#{page_name_components[0,2].join('.')}" %>
-          </li>
-        <% end%>
-      <% end %>
-    <% end %>
-  </ul>
-  <ul class="list-none ps-5">
-    <li>
-      <a href="mailto:mail@harrisonbroadbent.com">Email me ↗</a>
-    </li>
-  </ul>
+<div class="hidden sm:flex flex-col gap-x-4 gap-y-1 text-right mb-8 border border-stone-950 rounded-sm p-3">
+  <p class="font-display text-stone-900 mb-2">Harrison Broadbent</p>
+  <% config.menu_pages.each do |name, path|%>
+    <%= link_to name, path, class: "text-stone-700" %>
+  <% end%>
 </div>

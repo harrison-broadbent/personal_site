@@ -1,30 +1,20 @@
 <!doctype html>
-<html class="bg-stone-50 font-sans text-sm text-stone-700">
+<html lang="en" class="bg-stone-50 font-sans text-sm text-stone-700">
   <head>
-    <% if app.build? %>
-      <%# only include tag in production %>
-      <%= partial 'partials/tracking_snippet' %>
-    <% end %>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title %> · Harrison Broadbent</title>
-    <%= stylesheet_link_tag "site" %>
-    <%= stylesheet_link_tag "quote_block" %>
+    <%= partial "partials/head_meta_tags" %>
     <%= stylesheet_link_tag "tailwind" %>
+    <%= stylesheet_link_tag "code_highlighting" %>
     <%= javascript_include_tag "site" %>
-    <%= auto_display_meta_tags %>
   </head>
-  <body class="flex h-full m-4 sm:m-0 p-2 sm:p-8">
-    <%= partial 'partials/left'%>
-    <div class="flex flex-col w-full">
-      <%= partial 'partials/mobile-menu' %>
-      <div id="content-container" class="grow">
-        <div id="content" class="max-w-xl">
-          <%= yield %>
-        </div>
+  <body class="flex flex-row h-full p-3 sm:p-8 sm:mt-8 mb-12">
+    <div class="w-full">
+      <div class="max-w-3xl mx-auto">
+        <%= partial "partials/mobile_menu" %>
+        <%= yield %>
       </div>
     </div>
-    <%= partial 'partials/menu'%>
+    <div class="">
+      <%= partial "partials/menu" %>
+    </div>
   </body>
 </html>
