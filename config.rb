@@ -10,6 +10,7 @@ set :menu_pages, {
       Sourdough: "/sourdough",
       Woodworking: "/woodworking",
     }
+set :trailing_slash, false
 
 # Extensions
 #
