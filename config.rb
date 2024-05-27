@@ -4,6 +4,7 @@ set :site_url, "https://harrisonbroadbent.com"
 set :site_title, "Harrison Broadbent" # site title for <title> meta tag
 set :menu_pages, {
       About: "/about",
+      Blog: "/blog",
       Now: "/now",
       Stack: "/stack",
       Reading: "/reading",
@@ -24,7 +25,7 @@ end
 activate :blog do |blog|
   blog.name = "blog"
   blog.prefix = "blog" 							 # directory prefix
-  blog.layout = "markdown_layout" 	# layout from source/layouts
+  blog.layout = "blog_layout" 	# layout from source/layouts
   blog.sources = "{title}.html" 		# filename glob
   blog.permalink = "{title}.html"   # format of the URLs middleman generates
   blog.default_extension = ".md" 		# file extension

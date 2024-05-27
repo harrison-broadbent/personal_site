@@ -1,0 +1,15 @@
+<%#
+  Wraps markdown_layout.erb with layout.erb
+  (this gets inserted into the "yield" in layout.erb)
+
+  If it's a blog article, displays "← Back | Date" above the title.
+%>
+<% wrap_layout :layout do %>
+  <div id="prose-content" class="prose">
+    <div class="not-prose mb-10">
+      <h1 class="text-5xl font-serif mb-2 text-stone-900 tracking-tight font-black"><%= current_article.title %></h1>
+      <span class="font-light text-stone-400"><a class="after:content-none" href="/blog">&larr; back</a> ——— Harrison Broadbent, published <%= current_article.data.date %></span>
+    </div>
+    <%= yield %>
+  </div>
+<% end %>
