@@ -45,6 +45,10 @@ a {
   content: "";
 }
 
+.prose blockquote {
+  @apply bg-stone-200 border-stone-300 border-r-2 border-l-8 border-y-2 rounded-r-xl pr-2;
+}
+
 .prose blockquote * ::before {
   content: "";
 }
