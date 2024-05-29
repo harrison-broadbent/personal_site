@@ -22,7 +22,7 @@ I'm writing this as I watch the dregs of a 20-hour traffic spike trickle through
 
 > Note: If you're unfamiliar with [Hacker News](https://news.ycombinator.com) (doubtful, you've probably come from there), it's a technology news website run by the [boffins](https://news.ycombinator.com/user?id=dang) at [Y Combinator](https://www.ycombinator.com) (a startup accelerator).
 >
-> As of 2022, [HN received approximately 10 million pageviews/day](https://news.ycombinator.com/item?id=33454140) (that's quite a lot!).
+> As of 2022, [HN received approximately 10 million pageviews/day](https://news.ycombinator.com/item?id=33454140).
 
 ## Traffic numbers
 
@@ -30,13 +30,13 @@ I'm writing this as I watch the dregs of a 20-hour traffic spike trickle through
 
 ![traffic from hacker news traffic spike](images/blog/hacker-news-traffic-spike-anatomy/stats.png) _Across a 20 hour surge, I recorded approx 15k unique visitors and 18k pageviews from HN._
 
-**With a (recorded) peak of ~308 concurrent users:**
+**With a (recorded) peak of 308 concurrent users:**
 
 ![traffic from hacker news traffic spike](images/blog/hacker-news-traffic-spike-anatomy/308-live.png) _I recorded a peak of 308 concurrent users from HN (although I was asleep for the tail-half of my submission's front-page time)._
 
 **15k visitors is a lot! The _actual_ traffic numbers are a bit more opaque though (and likely larger).**
 
-My analytics provider uses a javascript snippet to track pageviews. With [over 30% of people using an ad-blocker](https://backlinko.com/ad-blockers-users#:~:text=Today%2C%2032.8%25%20of%20internet%20users%20worldwide%20report%20using%20an%20ad%20blocker.) (which typically blocks javascript snippets), thousands of people likely blocked my analytics script (good for them!).
+My analytics provider uses a javascript snippet to track pageviews. With [over 30% of people using an ad-blocker](https://backlinko.com/ad-blockers-users#:~:text=Today%2C%2032.8%25%20of%20internet%20users%20worldwide%20report%20using%20an%20ad%20blocker.) (most block javascript snippets), thousands of people likely blocked my analytics script (good for them!).
 
 Traffic could have been closer to 20k and 24k respectively (or higher, even, if you believe the tech-savvy HN audience might have a higher usage of ad-blockers than the general population).
 
@@ -50,17 +50,35 @@ Here's the hourly traffic from Hacker News, plotted and annotated:
 
 1. All new Hacker News submissions start in [/new](https://news.ycombinator.com/newest). Most die there too, but the lucky ones (that get a handful of upvotes) graduate out and can quickly rocket up the rankings. **It took ~1-2 hours for my submission to ascend the frontpage.**
 2. **About 3 hours after submitting the article, pageviews peaked, at about 1.75k/hour.**
-3. After peaking at 1.75k, pageviews **dropped to about 1.2-1.3k/hour for the next 6 hours.** By this point, ~8 hours post-submission, over 50% of the "traffic spike" has already passed.
+3. After peaking at 1.75k/hour, pageviews **dropped to about 1.2-1.3k/hour for the next 6 hours.** By this point, ~8 hours post-submission, over 50% of the "traffic spike" has already passed.
 4. Traffic plummets as the post drops and then falls off the front page.
-5. **A trickle of pageviews continues** 16+ hours post-submission.
+5. **A trickle of pageviews continues** over the next few days.
 
 I'm interested to see how long the long-tail HN traffic lasts. I'm planning to come back and update this section with some extra info once things have quieted down.
 
+> Update: Four days on from the initial post, it looks like the final dregs of traffic have stopped. Overall, it looks like about `18k` pageviews are attributable to the HN spike; an additional `3k` pageviews trickled in over the 72 hours following the end of the chart above.
+
 ## Long-tail effects
 
-Traffic is exciting; it gets the dopamine pulsing, but it's a sugar hit, a one-off high. The long-term effects linger though and (hopefully) continue to deliver long after a submission has fallen off the HN frontpage.
+Traffic is exciting! It gets the dopamine pulsing, but it's a sugar hit, a one-off high. The long-term effects linger though and (hopefully) continue to deliver long after a submission has fallen off the HN frontpage.
 
 I noticed a couple of longer-term / unexpected effects following the HN spike —
+
+### > New backlinks
+
+**This traffic spike brought in 150+ new backlinks to my [blog](https://dumbph.com) from various aggregator sites.**
+
+There are _hundreds_ of sites that scrape or aggregate content from Hacker News, like [hckrnews.com](https://hckrnews.com), [hackerweb.app](https://hackerweb.app), [brutalist.report](https://brutalist.report) and more. Over the last 24 hours, I've noticed a jump in the Domain Rank (DR) of my blog (as reported by [Ahrefs](https://ahrefs.com/backlink-checker)), and a corresponding jump in Search impressions and clicks.
+
+I'm interested to see how many of these backlinks stick around since many will fade away as my article drops off these aggregators. I'm expecting some lingering effects, although given that most of the links are relatively low-quality, I'm not sure how strong those effects will be.
+
+### > Second-order social media posts (Reddit, Twitter)
+
+Following the traffic on HN, a few tweets and Reddit posts popped up to re-share either the content itself, or the HN thread. I've counted 20 different tweets, and at least two [Reddit](https://www.reddit.com/r/hackernews/comments/1d0yw1i/turn_your_iphone_into_a_dumb_phone) [posts](https://www.reddit.com/r/hypeurls/comments/1d0xei3/turn_your_iphone_into_a_dumb_phone):
+
+![My HN submission led to 20+ tweets sharing my blog post.](images/blog/hacker-news-traffic-spike-anatomy/twitter.png){:class .w-72} _20+ Twitter accounts tweeted either the blog post link, or the HN thread._
+
+Exciting numbers, but the actual traffic results were pretty minimal — around `100` pageviews can be attributed to Twitter and another `25` from Reddit.
 
 ### > Bandwidth (over)usage
 
@@ -75,22 +93,6 @@ That's triggered $110 of [bandwidth charges](https://www.netlify.com/pricing/?ca
 Given some of the recent [horror stories](https://news.ycombinator.com/item?id=39520776) related to runaway bandwidth costs, I hope this will serve as a gentle reminder to double-check your cloud host's offerings. With zero-bandwidth-cost options like Cloudflare Pages available now, it's harder to justify providers with pricey bandwidth (and low limits... and runaway bandwidth charges...).
 
 > Note: We can use these bandwidth figures to try and infer traffic. `233 GB / 8 MB = ~30k`, potentially giving us a better idea of the true traffic numbers from this spike.
-
-### > New backlinks
-
-**This traffic spike also brought in 150+ new backlinks to my [blog](https://dumbph.com) from various aggregator sites (most of which are `dofollow`).**
-
-There are _hundreds_ of sites that scrape or aggregate content from Hacker News, like [hckrnews.com](https://hckrnews.com), [hackerweb.app](https://hackerweb.app), [brutalist.report](https://brutalist.report) and more. Over the last 24 hours, I've noticed a jump in the Domain Rank (DR) of my blog (as reported by [Ahrefs](https://ahrefs.com/backlink-checker)), and a corresponding jump in Search impressions and clicks.
-
-I'm interested to see how many of these backlinks stick around since many will fade away as my article drops off these aggregators. I'm expecting some lingering effects, although given that most of the links are relatively low-quality, I'm not sure how strong those effects will be.
-
-### > Second-order social media posts (Reddit, Twitter)
-
-Following the traffic on HN, a few tweets and Reddit posts popped up to re-share either the content itself, or the HN thread. I've counted 20 different tweets, and at least two [Reddit](https://www.reddit.com/r/hackernews/comments/1d0yw1i/turn_your_iphone_into_a_dumb_phone) [posts](https://www.reddit.com/r/hypeurls/comments/1d0xei3/turn_your_iphone_into_a_dumb_phone):
-
-![My HN submission led to 20+ tweets sharing my blog post.](images/blog/hacker-news-traffic-spike-anatomy/twitter.png){:class .w-72} _20+ Twitter accounts tweeted either the blog post link, or the HN thread._
-
-Exciting numbers, but the actual traffic results were pretty minimal — around `100` pageviews can be attributed to Twitter and another `25` from Reddit.
 
 ### > A friendly email
 
