@@ -1,6 +1,6 @@
 ---
 title: Anatomy of a Hacker News traffic spike
-description:
+description: A breakdown of a HN traffic spike which drove 15k+ visitors to my blog post.
 date: May 27 2024
 ---
 
