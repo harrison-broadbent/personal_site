@@ -1,6 +1,6 @@
 ---
 title: Anatomy of a Hacker News traffic spike
-description: A breakdown of a HN traffic spike which drove 15k+ visitors to my blog post.
+description: A breakdown of a HN traffic spike which drove 15k+ visitors to my blog post. I show you the exact anatomy of a Hacker News traffic spike, including how long it lasted and some long-tail effects.
 date: May 27 2024
 ---
 

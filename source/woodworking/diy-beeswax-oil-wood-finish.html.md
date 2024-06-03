@@ -1,5 +1,6 @@
 ---
 title: Making a DIY beeswax and oil wood finish (board butter)
+description: In this short article, I show you how to make your own “board butter”, a food-safe finish for cutting boards made from natural oil and beeswax. Once you’ve assembled your ingredients, it takes less than 10 minutes to make.
 date: 2024-06-03
 ---
 
