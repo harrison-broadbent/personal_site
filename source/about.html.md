@@ -6,9 +6,11 @@ title: About
 
 Hey, my name's Harrison. I live in Melbourne, Australia.
 
-I currently work at [HotDoc](https://hotdoc.com.au) and run the [RailsNotes blog](https://railsnotes.xyz) (learn more at [/now](/now.html)). Before HotDoc, I built payments systems at an Indonesian tech unicorn, and spent 3 years working at [Seer Medical](https://seermedical.com), in a strange (but fun!) mix of manufacturing / production management / software engineering.
+I'm currently working as a Software Engineer at [HotDoc](https://hotdoc.com.au), Australia's largest medical bookings platform. Prior to this, I built payment systems at an Indonesian tech unicorn, and blended software engineering with device manufacturing at a local MedTech startup.
 
-I particularly enjoy coding, [reading](reading), running, [electronics](electronics), camping and [sourdough baking](sourdough). Recently, I've also been doing some [woodworking](woodworking) and [writing about dumbphones](https://dumbph.com).
+Some of my hobbies are [reading](reading), [electronics](electronics), [sourdough baking](sourdough), marathon running and camping. Recently, I've also been exploring [woodworking](woodworking) and [writing about dumbphones](https://dumbph.com).
+
+Learn more about what I'm current up to at [/now](/now.html).
 
 ### You can find me here:
 

@@ -9,15 +9,15 @@
 	image gallery partial:
 	 - filters out pictures containing "diagram".
  %>
-<div class="columns-2 sm:columns-3 gap-3 border border-stone-100 rounded-md p-2">
+<div class="not-prose columns-2 sm:columns-3 gap-x-3 border border-stone-100 rounded-md p-2 max-w-md">
   <% sitemap.resources.shuffle.each do |resource| %>
     <% if resource.path.start_with?( path ) and !resource.path.include?("diagram") %>
       <% if unsplash_link %>
         <% link_to "https://unsplash.com/photos/" + resource.path.split("-")[2], class: "after:content-['']" do %>
-          <%= image_tag resource.path, class: "m-0 rounded-sm hover:brightness-105 transition-all" %>
+          <%= image_tag resource.path, class: "mb-3 m-0 hover:brightness-105 transition-all" %>
         <% end %>
       <% else %>
-        <%= image_tag resource.path, class: "h-auto m-0 rounded-sm" %>
+        <%= image_tag resource.path, class: "mb-3 h-auto m-0" %>
       <% end%>
     <% end %>
   <% end %>
