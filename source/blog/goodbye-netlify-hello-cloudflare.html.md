@@ -4,7 +4,7 @@ description:
 date: June 6 2024
 ---
 
-> I've used Netlify for a long time, and they've always been solid. Then, [one of my blog posts](https://dumbph.com/turn-iphone-into-dumb-phone) hit the [frontpage of Hacker News](/blog/hacker-news-traffic-spike-anatomy), Netlify recorded 233Gb of bandwidth usage and sent me a bill for $110, and I started to question things...
+> Until recently, I'd been a die-hard Netlify fan. Then, [one of my blog posts](https://dumbph.com/turn-iphone-into-dumb-phone) hit the [frontpage of Hacker News](/blog/hacker-news-traffic-spike-anatomy), Netlify recorded 233Gb of bandwidth usage and sent me a bill for $110, and I started to question things...
 
 <!-- table of contents (html disclosure + kramdown {:toc}) -->
 <details class='italic bg-stone-100 py-1 px-3 rounded-sm border border-stone-200' open><summary>Table of Contents</summary><aside markdown="1">
@@ -18,13 +18,13 @@ It's March 2020, the world was shutting down, and I'd just `git push-ed` this si
 
 ![hacker news story in 1st place](images/blog/goodbye-netlify-hello-cloudflare/commit.png)
 
-Now, 4 years later, **I've completely migrated off Netlify**. I don't have a single site left with them.
+Now, 4 years later, **I've completely migrated off Netlify**. I don't have a single site left with them. In fact, in 28 days they're planning to suspend all my sites.
 
 **Why?** One simple reason — bandwidth overage.
 
 ## Bandwidth overage
 
-Netlify bills for bandwidth [over a certain limit](https://www.netlify.com/pricing/#pricing-table:~:text=100GB%20/month%0Athen%20%2455%20per%20100GB), and there's been some recent [horror stories](https://news.ycombinator.com/item?id=39520776) about runaway bandwidth charges. The horror HN thread describes how Netlify issued a bill for **$104k to a site owner who was DDoS-ed (causing a massive bandwidth spike).**
+Netlify bills for bandwidth [over a certain limit](https://www.netlify.com/pricing/#pricing-table:~:text=100GB%20/month%0Athen%20%2455%20per%20100GB), and there's been some recent [horror stories](https://news.ycombinator.com/item?id=39520776) about runaway bandwidth charges. That horror HN thread describes how Netlify issued a bill for **$104k to a site owner who was DDoS-ed (causing a massive bandwidth spike).**
 
 Netlify's CEO replied in the HN thread with:
 
@@ -36,23 +36,27 @@ I _knew_ this about this. I'd _seen_ the Hacker News thread. Unfortunately, that
 
 ![hacker news story in 1st place](images/blog/goodbye-netlify-hello-cloudflare/233gb.png)_My bandwidth ballooning to 233 GB/100 GB during a HN traffic spike._
 
-I didn't miss the accompanying invoice (now overdue) on my Netlify account:
+I'd also been kindly provided the accompanying invoice (now overdue) on my Netlify account:
 
 ![hacker news story in 1st place](images/blog/goodbye-netlify-hello-cloudflare/bill.png)_Netlify issuing an invoice of $110 USD for the bandwidth usage._
 
-Runaway cloud charges aren't a new thing. There's a similar story regarding a [$3k bill from Vercel](https://www.reddit.com/r/nextjs/comments/12dngvg/small_mistake_leads_to_3000_bill_from_vercel_and/?rdt=49055), and although unrelated to bandwidth, was still at the forefront of my mind as I considered whether I wanted even a _small possibility_ of being on the hook for similar runaway charges.
+And just as I was about to publish this article, I received another email from Netlify noting that I need to "provide a valid credit card" to "keep [my] sites up and running", with a similar invoice breakdown to above.
+
+Hmm. Not ideal, is it?
+
+Runaway cloud charges aren't a new thing. A year ago, there was a similar story regarding a [$3k bill from Vercel](https://www.reddit.com/r/nextjs/comments/12dngvg/small_mistake_leads_to_3000_bill_from_vercel_and/?rdt=49055). Although that bill was unrelated to bandwidth overage, it was still at the forefront of my mind as I considered whether I wanted even a _small possibility_ of being on the hook for similar runaway charges.
 
 The answer was, of course, **"no"**.
 
-It took about 2 hours to migrate two sites from Netlify to Cloudflare Pages, and now I sleep slightly better at night.
+It took about 2 hours to migrate two sites from Netlify to Cloudflare Pages (mostly fiddling with DNS records), and now I sleep slightly better at night. I welcome Netlify suspending my account; if anything, at this point, they're probably doing me a favour.
 
 ## Static host bandwidth overage charges (breakdown)
 
-Here's a short breakdown of the current (June 2024) state of various static hosts around the web.
+Here's a short breakdown of the current (June 2024) state of various static hosts around the web. I'm hoping to get you up-to-speed on hosting offerings, so you can make an educated decision on whether you migrate hosts or not.
 
-**The TLDR; is that for _static sites & pages_, Cloudflare and Render both have unlimited offerings and are the two I'd recommend** (note that I'm only recommending Render based on their features. I've used their compute platform, but not their static hosting).
+**The TLDR; is that for _static sites & pages_, Cloudflare and Render both have unlimited offerings and are the two I'd recommend.** (note: I'm only recommending Render based on their features. I've used their compute platform, but not their static hosting).
 
-I think it's difficult to justify the other hosts on this list. With borderline-identical offerings, why would you choose a provider with bandwidth limits over one without?
+I think nowdays it's difficult to justify the bandwidth-limiting hosts on this list. With such similar offerings across hosts, why would you choose one with bandwidth limits, instead of one without?
 
 | Host                 | Limit       | Charge    | Source                                                                                                                                                                                                                                                                                                  |
 | -------------------- | ----------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,7 +69,7 @@ I think it's difficult to justify the other hosts on this list. With borderline-
 
 {:class .text-left}
 
-Of course, maybe there are other factors locking you into a cloud host and preventing you from migrating, or perhaps one has a specific feature you need. That's fine!
+Of course, maybe there are other factors locking you into a cloud host and preventing you from migrating. Perhaps one even has a specific feature you need. That's fine!
 
 If, however, you're sticking with your current provider due to simple inertia, it might be time for a re-assessment.
 
