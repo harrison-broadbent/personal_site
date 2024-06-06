@@ -5,11 +5,11 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000");
 
 a {
-  @apply underline text-stone-600 hover:text-stone-500 after:content-['_↗'];
+  @apply underline text-stone-600 hover:text-orange-500 after:content-['_↗'];
 }
 
 #prose-content {
-  @apply prose-sm text-pretty prose-img:mb-2 prose-headings:tracking-tight;
+  @apply prose-sm prose-stone prose-headings:font-serif prose-h1:sm:text-5xl text-pretty prose-img:mb-2 prose-headings:tracking-tight;
 }
 
 #prose-content > p > img + em {
@@ -34,7 +34,7 @@ a {
   content: "";
 }
 .prose p code {
-  @apply bg-stone-100 rounded-md py-0.5 px-1.5 border text-stone-800 font-semibold;
+  @apply bg-stone-100/80 border-2 rounded-md py-0.5 px-1.5 text-stone-800 font-semibold;
 }
 
 .prose blockquote ::before {
@@ -46,7 +46,7 @@ a {
 }
 
 .prose blockquote {
-  @apply bg-stone-200 border-stone-300 border-r-2 border-l-8 border-y-2 rounded-r-xl pr-2;
+  @apply text-orange-950 bg-orange-100 border-orange-300 border-r-2 border-l-8 border-y-2 rounded-r-xl pr-2;
 }
 
 .prose blockquote * ::before {
