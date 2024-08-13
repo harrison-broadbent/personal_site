@@ -8,6 +8,7 @@ set :menu_pages, {
       Now: "/now",
       Stack: "/stack",
       Reading: "/reading",
+      Running: "/running",
       Electronics: "/electronics",
       Sourdough: "/sourdough",
       Woodworking: "/woodworking",
@@ -74,7 +75,7 @@ end
 #
 markdown_pages = [
   "about", "blog", "stack", "software",
-  "now", "woodworking", "reading", "electronics",
+  "now", "woodworking", "reading", "running", "electronics",
   "sourdough",
 ]
 markdown_pages.each do |pge|
