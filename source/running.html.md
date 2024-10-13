@@ -8,7 +8,7 @@ I run quite a bit. This page compiles some of my general, 5k-specific and marath
 
 My current PBs are:
 
-- **5k:** 17:47 (2024 target: sub-17:30)
+- **5k:** 17:33 (2024 target: sub-17:30)
 - **Marathon:** 3:06:08 (2024 target: sub-3hrs)
 
 ## General Running Tips
@@ -40,4 +40,4 @@ My current PBs are:
 
 - **Fueling:**
   - Eat more than you think you need in the race. My first marathon I think I had `~3-4` gels, my most recent one I think I ate `~6.5` gels.
-  - It was pretty crazy reflecting on that and realizing that some of my earlier marathon "bonks" could probably be partially-attributed to poor fuelling instead of under-training.
+  - It was pretty crazy reflecting on that and realizing that some of my earlier marathon "bonks" could be partially-attributed to poor fuelling instead of under-training.
