@@ -4,7 +4,7 @@ title: Now
 
 # Now
 
-_Updated: 14th Oct, 2024_
+_Updated: 14th Nov, 2024_
 
 What am I up to? What's going on with me **now**?
 
