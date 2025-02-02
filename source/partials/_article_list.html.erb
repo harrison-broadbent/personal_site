@@ -1,8 +1,13 @@
-<ul>
-  <% blog.articles.each do |article| %>
-    <li class="flex">
-      <time class="block w-32">[<%= article.date.strftime('%b %e %Y') %>]</time>
-      <%= link_to article.title, article.url %>
-    </li>
-  <% end %>
-</ul>
+<% articles_by_year = blog.articles.group_by { |article| article.date.year } %>
+<% articles_by_year.each do |year, articles| %>
+  <h2 class="mt-4"><%= year %></h2>
+  <ul class="pb-8 border-b last:border-none">
+    <% articles.each do |article| %>
+      <li class="flex space-x-3">
+        <time class="block font-mono"><%= article.date.strftime('%b %d') %></time>
+        <span>//</span>
+        <%= link_to article.title, article.url %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
