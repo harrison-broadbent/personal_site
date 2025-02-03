@@ -4,9 +4,9 @@ title: About
 
 ![photo-of-harrison](images/profile.jpg){:class="max-h-32"}
 
-Hey, my name's Harrison. I live in Melbourne, Australia.
+Hey, my name's Harrison. I live in Melbourne, Australia 🇦🇺
 
-I'm currently working as a Software Engineer at [HotDoc](https://hotdoc.com.au), Australia's largest medical bookings platform. Prior to this, I built payment systems at an Indonesian tech unicorn, and blended software engineering with device manufacturing at a local MedTech startup.
+At my day job, I work as a Software Engineer at [HotDoc](https://hotdoc.com.au), Australia's largest medical bookings platform. Prior to this, I built payment systems at an Indonesian tech unicorn, and blended software engineering with device manufacturing at a local MedTech startup.
 
 My hobbies include [reading](reading), [electronics](electronics), [sourdough baking](sourdough), [running](/running) and camping. Recently, I've also been exploring [woodworking](woodworking) and [writing about dumbphones](https://dumbph.com).
 

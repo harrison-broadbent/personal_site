@@ -19,6 +19,7 @@ set :trailing_slash, false
 #
 activate :livereload                # live-reloading in dev
 activate :directory_indexes         # for pretty URLs
+activate :asset_hash
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end

@@ -4,12 +4,12 @@ title: Stack
 
 # Stack
 
-I love learning how other people build things.
-Currently, this site runs on the following (using an [open-source blog template](https://github.com/harrison-broadbent/ruby-middleman-tailwind-starter-blog) I've built and shared) -
+I love reading about the tech people build their personal sites with.
+Currently, this site runs on the following (using an [open-source blog template](https://github.com/harrison-broadbent/ruby-middleman-tailwind-starter-blog) I maintain) -
 
 - [Middleman](https://www.middlemanapp.com/) static site generator,
 - [TailwindCSS](https://tailwindcss.com) for most of the styling,
-- [Markdown](https://en.wikipedia.org/wiki/Markdown) to create webpages, parsed by Middleman using [kramdown](https://github.com/gettalong/kramdown),
+- [Markdown](https://en.wikipedia.org/wiki/Markdown) to create webpages, parsed by [kramdown](https://github.com/gettalong/kramdown),
 - [Cloudflare Pages](https://pages.cloudflare.com/) for static hosting.
 - Design _shamelessly inspired_ by [Patrick Collison's personal site.](https://www.patrickcollison.com)
 
