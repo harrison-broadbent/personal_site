@@ -4,11 +4,11 @@ set :site_url, "https://harrisonbroadbent.com"
 set :site_title, "Harrison Broadbent" # site title for <title> meta tag
 set :menu_pages, {
       About: "/about",
-      Blog: "/blog",
       Now: "/now",
-      Stack: "/stack",
       Reading: "/reading",
       Running: "/running",
+      Blog: "/blog",
+      Stack: "/stack",
       Electronics: "/electronics",
       Sourdough: "/sourdough",
       Woodworking: "/woodworking",

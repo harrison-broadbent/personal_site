@@ -3,9 +3,8 @@ title: Blog
 description: Personal blog of Harrison Broadbent, writing about technology.
 blog: blog
 ---
-
 # Articles (by me)
 
 Welcome to my personal blog — this is a collection of tech / software / programming articles about things I've learned building internet projects. I hope you find them useful!
 
-<%= partial "partials/article_list" %>
+<%= partial "partials/article_list", locals: { group_by_year: true } %>

@@ -1,10 +1,29 @@
-<% articles_by_year = blog.articles.group_by { |article| article.date.year } %>
-<% articles_by_year.each do |year, articles| %>
+<%# pass as locals:
+	group_by_year: true || whether to group by year or just a single list
+
+	example link
+	<%= partial 'partials/article_list', :locals => { group_by_year: false} %>
+<%#
+ %>
+<% if group_by_year %>
+  <% articles_by_year = blog.articles.group_by { |article| article.date.year } %>
+  <% articles_by_year.each do |year, articles| %>
   <h2 class="mt-4"><%= year %></h2>
   <ul class="pb-8 border-b last:border-none">
     <% articles.each do |article| %>
       <li class="flex space-x-3">
         <time class="block font-mono"><%= article.date.strftime('%b %d') %></time>
+        <span>//</span>
+        <%= link_to article.title, article.url %>
+      </li>
+    <% end %>
+  </ul>
+  <% end %>
+<% else %>
+  <ul>
+    <% blog.articles.each do |article| %>
+      <li class="flex gap-x-3">
+        <time class="block font-mono"><%= article.date.strftime('%b %d %Y') %></time>
         <span>//</span>
         <%= link_to article.title, article.url %>
       </li>

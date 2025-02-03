@@ -15,7 +15,7 @@ Currently, this site runs on the following (using an [open-source blog template]
 
 ---
 
-> **I've run this site for 8+ years on this tech stack.** Do I think Middleman is dying? Absolutely. I still enjoy using it though, and I think it's still a solid choice for a static site like this.
+> **I've run this site for 9+ years on this tech stack.** Do I think Middleman is dying? Absolutely. I still enjoy using it though, and I think it's still a solid choice for a static site like this.
 >
 > I think `.md` is the ultimate blog file format. There's no lock-in to a CMS platform, and they're entirely portable to another tech-stack. Middleman, despite it's age, does a great job parsing and rendering everything, but if I wanted to switch to another stack, my `.md` articles would copy across without any hassle.
 >
