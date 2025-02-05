@@ -1,6 +1,6 @@
 ---
-title: Simple Toast Notifications using plain Javascript
-description: In this article, I show you how to build a simple toast notification system using nothing but native Javascript and CSS. No framework is required to add these simple toast messages to your app or website!
+title: Simple Toast Notifications using Vanilla Javascript
+description: In this article, I show you how to build a simple toast notification system using nothing but vanilla Javascript and CSS. No framework is required to add these simple toast messages to your app or website!
 date: February 3 2025
 ---
 
@@ -9,7 +9,7 @@ date: February 3 2025
 {:toc}
 </aside></details>
 
-**This article explains how I added toast messages to my side-project, [Tailcolors](https://tailcolors.com), with nothing but native Javascript & CSS. I've also included some examples.**
+**This article explains how I added toast messages to my side-project, [Tailcolors](https://tailcolors.com), with nothing but vanilla Javascript & CSS. I've also included some examples.**
 
 Here's an example of these native Javascript toast notifications:
 
