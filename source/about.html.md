@@ -2,7 +2,7 @@
 title: About
 ---
 
-![photo-of-harrison](images/profile.jpg){:class="max-h-32"}
+![photo-of-harrison](images/profile.jpg){:class="max-h-32 not-prose"}
 
 Hey, my name's Harrison. I live in Melbourne, Australia 🇦🇺
 

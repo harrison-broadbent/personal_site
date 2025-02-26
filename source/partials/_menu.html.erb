@@ -1,6 +1,5 @@
 <div class="hidden sm:flex flex-col gap-x-4 gap-y-1 text-right mb-8 border border-stone-950 rounded-sm p-3">
-  <p class="font-display text-stone-900 mb-2">Harrison Broadbent</p>
   <% config.menu_pages.each do |name, path|%>
-    <%= link_to name, path, class: "text-stone-700" %>
+    <%= link_to name, path, class: "text-stone-700 w-max" %>
   <% end%>
 </div>

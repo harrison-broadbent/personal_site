@@ -5,10 +5,10 @@ set :site_title, "Harrison Broadbent" # site title for <title> meta tag
 set :menu_pages, {
       About: "/about",
       Now: "/now",
-      Reading: "/reading",
-      Running: "/running",
       Blog: "/blog",
       Stack: "/stack",
+      Reading: "/reading",
+      Running: "/running",
       Electronics: "/electronics",
       Sourdough: "/sourdough",
       Woodworking: "/woodworking",

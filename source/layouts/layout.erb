@@ -9,8 +9,10 @@
   <body class="flex flex-row h-full p-3 sm:p-8 sm:mt-8 mb-12">
     <div class="w-full">
       <div class="max-w-3xl mx-auto">
+        <div class="mt-8 mb-12">
+          <%= yield %>
+        </div>
         <%= partial "partials/mobile_menu" %>
-        <%= yield %>
       </div>
     </div>
     <div class="">
