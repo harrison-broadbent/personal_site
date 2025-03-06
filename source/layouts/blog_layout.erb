@@ -7,7 +7,7 @@
 <% wrap_layout :layout do %>
   <div id="prose-content" class="prose">
     <div class="not-prose mb-8">
-      <h1 class="mb-4 text-4xl md:text-5xl font-serif text-stone-900 tracking-tight font-black"><%= current_article.title %></h1>
+      <h1 class="mb-4 text-4xl md:text-5xl font-display text-stone-900 tracking-tight font-black"><%= current_article.title %></h1>
       <span class="font-light text-stone-400"><a class="after:content-none" href="/blog">&larr; back</a> &nbsp; // &nbsp; Published <%= current_article.data.date %></span>
     </div>
     <%= yield %>

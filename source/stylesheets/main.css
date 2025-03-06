@@ -9,8 +9,9 @@ a {
 }
 
 #prose-content {
-  @apply prose-stone prose-headings:font-serif prose-h1:sm:text-5xl text-pretty prose-headings:tracking-tight;
+  @apply prose-stone prose-headings:font-display max-w-3xl prose-h1:sm:text-5xl text-pretty prose-headings:tracking-tight;
   @apply prose-img:mb-2 prose-img:rounded-md prose-img:border prose-img:border-stone-200 prose-img:shadow-md;
+  @apply prose-hr:my-6;
 }
 
 #prose-content > p > img + em {
@@ -50,7 +51,7 @@ a {
 }
 
 .prose blockquote {
-  @apply text-orange-950 bg-orange-100 border-orange-300 border-r-2 border-l-8 border-y-2 rounded-r-xl pr-2;
+  @apply text-orange-950 bg-orange-50 border-orange-200 border-r-2 border-l-8 border-y-2 rounded-r-xl pr-2;
 }
 
 .prose blockquote * ::before {
