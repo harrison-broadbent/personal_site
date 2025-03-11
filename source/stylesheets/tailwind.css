@@ -1217,14 +1217,6 @@ video {
   height: 100%;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
 .max-h-32 {
   max-height: 8rem;
 }

@@ -15,13 +15,15 @@ If this article helps just a _single developer_ avoid an unnecessary Javascript 
 
 I cover some great HTML elements in this article — modals, accordions, live range previews, progress bars and more. You might already know some of these, but I bet there's something new here for you too.
 
-> Note: A handful of examples use a teeny-tiny sprinkle of Javascript within `oninput` properties. Please forgive me for this 😅. The elements are self-contained enough that I consider them ~HTML.
+> Note: A few examples use a sprinkle of Javascript in their `oninput` properties. Please forgive me for this 😅. The elements are self-contained enough that I consider them ~HTML.
 
 ## Native HTML Modals (`dialog`)
 
-I've led with native HTML modals since I think they're a pattern commonly used in most apps. People tend to reach directly to Javascript for modals, unaware of the powerful native option. Represented by `<dialog>`, they have extensive support for styling, controls etc, and in my opinion, are one of the most slept-on native HTML elements.
+I've led with native HTML modals since I think they're a common pattern in many apps. People tend to reach directly to Javascript for modals, unaware of the powerful native option.
 
-Native HTML modals are opened by calling `.showModal()` on the `<dialog>` element and closed by calling `.closeModal()`, by clicking an embedded `<form>` with a `dialog` method, or pressing the <kbd>esc</kbd> key.
+HTML modals — represented by `<dialog>` — have extensive support for styling, controls etc, and in my opinion, are one of the most slept-on native HTML elements.
+
+HTML modals are opened by calling `.showModal()` on the `<dialog>` element and closed by calling `.closeModal()`, by clicking an embedded `<form>` with a `dialog` method, or pressing the <kbd>esc</kbd> key.
 
 Click the button below for an example:
 
@@ -57,7 +59,7 @@ Click the button below for an example:
 
 <hr />
 
-The entire modal is native HTML, except for a tiny bit of inline JS on the button which calls `.showModal()` on click. Pressing the `[x]` to close the modal uses a native HTML form (or you can use the <kbd>esc</kbd> key). Below is the code:
+The entire modal is native HTML, except for a tiny bit of inline JS on the button to call `.showModal()`. Pressing the `[x]` to close the modal uses a native HTML form (or you can use the <kbd>esc</kbd> key).
 
 A few things to note:
 
