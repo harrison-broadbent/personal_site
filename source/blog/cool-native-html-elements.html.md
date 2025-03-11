@@ -175,7 +175,7 @@ By supplying a `<datalist>` to a range input, you can render tickmarks at each v
 
 <hr />
 
-## Range inputs with live value display
+### Range inputs with live value display
 
 By adding a tiny bit of Javascript to the range input, you can easily add a live display of the input value. Credit goes to [this excellent StackOverflow answer](https://stackoverflow.com/a/18936328/7761325) for figuring this out!
 
