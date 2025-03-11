@@ -23,49 +23,47 @@ I've led with native HTML modals since I think they're a common pattern in many 
 
 HTML modals — represented by `<dialog>` — have extensive support for styling, controls etc, and in my opinion, are one of the most slept-on native HTML elements.
 
-HTML modals are opened by calling `.showModal()` on the `<dialog>` element and closed by calling `.closeModal()`, by clicking an embedded `<form>` with a `dialog` method, or pressing the <kbd>esc</kbd> key.
+By leveraging the [Popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API), dialogs can be opened and closed in native HTML; Opened by clicking a button with a `popovertarget` referencing the `<dialog>` element, and closed by clicking a similar button with `popovertargetaction="hide"`, or pressing the <kbd>esc</kbd> key.
+
+> You can also open / close dialogs in Javascript by calling `.showModal()` & `.closeModal()`.
 
 Click the button below for an example:
 
 <hr />
-<button class="border border-stone-700 rounded-sm px-1.5 hover:bg-stone-100" onclick="document.getElementById('modal').showModal()">Open Modal</button>
+<button popovertarget="modal" class="border border-stone-700 rounded-sm px-1.5 hover:bg-stone-100">Open Modal</button>
 
-<dialog id="modal" class="max-w-2xl rounded-sm border border-stone-900 bg-stone-50 backdrop:bg-stone-950/10 backdrop:backdrop-blur-sm">
+<dialog id="modal" popover="auto" class="max-w-2xl rounded-sm border border-stone-900 bg-stone-50 backdrop:bg-stone-950/10 backdrop:backdrop-blur-sm">
   <div class="p-4 flex justify-between bg-stone-100">
     <div class="flex flex-col pr-4 not-prose">
       <p>I'm a native HTML modal, built using the <code>dialog</code> element. </p>
       <p>Click the "X" to close me.</p>
     </div>
-    <div class="flex h-fit">
-      <form class="text-right mr-1 bg-stone-800 text-stone-50 w-fit" method="dialog">
-        <button class="focus:outline-none size-6">x</button>
-      </form>
-    </div>
+    <button class="h-fit px-1 bg-stone-800 text-stone-50 focus:outline-none" popovertarget="modal" popovertargetaction="hide">x</button>
   </div>
 </dialog>
 
 ```html
-<button onclick="document.getElementById('modal').showModal()">
-  Open Modal
-</button>
+<button popovertarget="modal">Open Modal</button>
 
-<dialog id="modal" class="max-w-2xl backdrop:backdrop-blur-sm">
+<dialog id="modal" popover="auto" class="max-w-2xl backdrop:backdrop-blur-sm">
   <p>Click the "X" to close me.</p>
-  <form method="dialog">
-    <button>x</button>
-  </form>
+  <button popovertarget="modal" popovertargetaction="hide">x</button>
 </dialog>
 ```
 
 <hr />
 
-The entire modal is native HTML, except for a tiny bit of inline JS on the button to call `.showModal()`. Pressing the `[x]` to close the modal uses a native HTML form (or you can use the <kbd>esc</kbd> key).
+The entire modal is native HTML. Pressing the `[x]` to close the modal uses the Popover API (or you can use the <kbd>esc</kbd> key).
 
 A few things to note:
 
-- The button has an inline `onclick` function which calls `.showModal()`, opening the `<dialog>`.
+- The first button has `popovertarget="modal"`, matching the dialog's ID, and the dialog has `popover="auto"`. With these two parameters set, clicking the button will open the dialog.
+- The second button closes the modal. It has `popovertarget="modal"` and `popovertargetaction="hide"`, closing the modal when clicked.
 - We style the modal's background with the `backdrop:` Tailwind CSS selector. For regular CSS, you can use the `.modal::backdrop` pseudoclass.
-- The embedded `<form method='dialog'>` closes the dialog with pure HTML.
+
+> Originally, to open the `<dialog>`, I used a button with `onclick="document.getElementById('modal').showModal()"`. A very smart reader pointed out though that the popover spec supports opening dialogs with native HTML.
+>
+> Thanks to [Matthew](https://starbreaker.org/) for the tip!
 
 [MDN Docs (dialog)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) &nbsp; // &nbsp; [Caniuse (96%)](https://caniuse.com/?search=dialog)
 
