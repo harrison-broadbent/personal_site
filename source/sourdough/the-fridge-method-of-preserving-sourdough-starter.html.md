@@ -24,3 +24,5 @@ That's the downside of this method — your starter wont always be ready to bake
 3. Place your starter in the fridge and store for up to a week (I've stored it much longer, but it always feels risky!)
 4. After a week, repeat from step 1 ↑
 5. (If you want to bake with your starter) Remove your sourdough starter from the fridge a day before you want to bake with it (irrelevant for discard recipes). Give it a regular feeding. Once it's risen, refresh your starter with another feeding, and use that to bake with the following day.
+
+> Note: If you're interested, I've put together [this amazon cart](https://amcs.to/gkuyl) of some of the main equipment I use to store my starter and bake bread (using this [tool to share your amazon cart](https://amzcartshare.com)).
