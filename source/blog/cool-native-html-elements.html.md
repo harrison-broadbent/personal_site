@@ -59,7 +59,7 @@ A few things to note:
 
 - The first button has `popovertarget="modal"`, matching the dialog's ID, and the dialog has `popover="auto"`. With these two parameters set, clicking the button will open the dialog.
 - The second button closes the modal. It has `popovertarget="modal"` and `popovertargetaction="hide"`, closing the modal when clicked.
-- We style the modal's background with the `backdrop:` Tailwind CSS selector. For regular CSS, you can use the `.modal::backdrop` pseudoclass.
+- We style the modal's background with the `backdrop:` Tailwind CSS selector. For regular CSS, you can use the `#modal::backdrop` pseudoclass.
 
 > Originally, to open the `<dialog>`, I used a button with `onclick="document.getElementById('modal').showModal()"`. A very smart reader pointed out though that the popover spec supports opening dialogs with native HTML.
 >
