@@ -71,4 +71,4 @@ To break down how it works:
 
 Thanks for reading!
 
-I hope this helped you add an RSS feed to your Middleman site.
+I hope this helped you add an RSS feed to your Middleman site. Since you're interested in Middleman, you might like my [Middleman blog template](/blog/ruby-middleman-blog). It comes with an RSS feed already setup, alongside Tailwind CSS, code highlighting and more.
