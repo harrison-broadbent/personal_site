@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         display: ["DM Sans", "sans-serif"],
+        mono: ["JetBrains Mono", "mono"],
       },
     },
   },
