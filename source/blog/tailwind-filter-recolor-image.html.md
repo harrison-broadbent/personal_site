@@ -1,6 +1,6 @@
 ---
 title: Recolor images with TailwindCSS filters
-description: In this article, I show you how to use TailwindCSS mix-blend-mode filters to re-color an image dynamically. By combining mix-blend-hard-light with grayscale, we can accomplish some pretty cool effects.
+description: Lear how to use Tailwind's mix-blend-mode filters to re-color an image dynamically. By combining mix-blend-hard-light with grayscale, we can accomplish some pretty cool effects.
 date: February 3 2025
 ---
 

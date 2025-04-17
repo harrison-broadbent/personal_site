@@ -1,6 +1,6 @@
 ---
 title: Simple Toast Notifications using Vanilla Javascript
-description: In this article, I show you how to build a simple toast notification system using nothing but vanilla Javascript and CSS. No framework is required to add these simple toast messages to your app or website!
+description: Learn how to build a simple toast notification system using nothing but vanilla Javascript and CSS. No framework is required to add these simple toast messages to your app or website!
 date: February 3 2025
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Cool native HTML elements you should already be using
-description: In this article, I show you how to use native HTML to implement features like modals & accordions, image captions, grouped lists and more.
+description: Learn how to use native HTML to implement features like modals & accordions, image captions, grouped lists and more.
 date: March 6th, 2025
 ---
 

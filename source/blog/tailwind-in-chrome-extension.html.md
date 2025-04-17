@@ -1,6 +1,6 @@
 ---
 title: Using Tailwind CSS in a Chrome Extension (the easy way)
-description: In this article, I show you how to use Tailwind CSS in your Chrome Extension for easy styling. It takes less than 5 minutes to install Tailwind in your Chrome Extension by following these steps.
+description: Learn how to use Tailwind CSS in your Chrome Extension for easy styling. It takes less than 5 minutes to install Tailwind in your Chrome Extension by following these steps.
 date: February 10 2025
 ---
 
