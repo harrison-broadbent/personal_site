@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="en" class="bg-stone-50 font-sans text-sm text-stone-950">
+<html lang="en" class="bg-stone-50 font-sans text-stone-950 text-sm">
   <head>
     <%= partial "partials/head_meta_tags" %>
     <%= stylesheet_link_tag "tailwind" %>
     <%= stylesheet_link_tag "code_highlighting" %>
     <%= javascript_include_tag "site" %>
   </head>
-  <body class="flex flex-row h-full p-3 sm:p-8 sm:mt-8 mb-12">
+  <body class="flex flex-row sm:mt-8 mb-12 p-3 sm:p-8 h-full">
     <div class="w-full">
-      <div class="max-w-3xl mx-auto">
+      <div class="mx-auto max-w-3xl">
         <div class="mt-8 mb-12">
           <%= yield %>
         </div>

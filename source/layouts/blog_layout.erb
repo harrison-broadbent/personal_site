@@ -8,7 +8,11 @@
   <div id="prose-content" class="prose">
     <div class="mb-8 not-prose">
       <h1 class="mb-4 font-bold text-stone-900 text-4xl md:text-5xl tracking-tight"><%= current_article.title %></h1>
-      <span class="font-light text-stone-400"><a class="after:content-none" href="/blog">&larr; back</a> &nbsp; // &nbsp; Published <%= current_article.data.date %></span>
+      <span class="text-stone-400">
+        <a class="after:content-none" href="/blog">&larr; back</a>
+        &nbsp; // &nbsp;
+        Published <%= current_article.data.date %>
+      </span>
     </div>
     <%= yield %>
   </div>
