@@ -15,6 +15,7 @@ xml.rss version: "2.0", "xmlns:atom" => "http://www.w3.org/2005/Atom" do
     xml.description desc
     xml.language    'en-us'
     xml.lastBuildDate(posts.first.date.to_time.rfc2822) if posts.any?
+    xml.tag!("atom:link", href: "#{site_url}/feed.xml", rel: "self", type: "application/rss+xml")
 
     posts.each do |post|
       xml.item do
