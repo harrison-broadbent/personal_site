@@ -1,5 +1,5 @@
 ---
-title: A native Tailwind CSS star rating component
+title: An interactive Tailwind CSS star rating component
 description: Learn how to create a star rating input using plain HTML and Tailwind CSS. This Tailwind star rating input is flexible and very portable.
 date: April 17th, 2025
 ---
@@ -16,9 +16,9 @@ One of my greatest joys is hacking around with Tailwind CSS, and using it to bui
 
 This Tailwind star rating input is a perfect example. With just plain HTML and Tailwind classes, you can build an animated star rating component just like below.
 
-## Star rating input component
+## Interactive Tailwind star rating component
 
-Here's the star input:
+Here's the star rating input:
 
 <div class="mt-8 text-5xl flex flex-row-reverse justify-center gap-1 text-amber-950 [&>*]:after:content-[''] [&>*]:no-underline">
   <a id="rate-5" href="#5" class="transition-all peer hover:text-yellow-500 peer-hover:text-yellow-500 cursor-pointer">★</a>
