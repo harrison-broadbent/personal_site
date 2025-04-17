@@ -16,7 +16,7 @@ One of my greatest joys is hacking around with Tailwind CSS, and using it to bui
 
 This Tailwind star rating input is a perfect example. With just plain HTML and Tailwind classes, you can build an animated star rating component just like below.
 
-## Star input component
+## Star rating input component
 
 Here's the star input:
 
