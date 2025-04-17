@@ -18,7 +18,7 @@ Middleman is a static site generator built atop Ruby, plain ERB templating, and 
 
 I really like Middleman — I use it to host my personal site (this one), and it's great. It's flexible, performant, and far easier to context-switch between a Ruby on Rails app and a Middleman blog than any Javascript static site generator I've played around with.
 
-If you're interested, I've open-sourced a [Ruby, Tailwind and Middleman blog template](https://github.com/harrison-broadbent/ruby-middleman-tailwind-starter-blog). It's the template this site is based off, and it comes pre-configured with plenty of goodies like:
+If you're interested, I've open-sourced a [Ruby, Tailwind and Middleman blog template](https://github.com/harrison-broadbent/ruby-middleman-tailwind-starter-blog). It's the template this site is based on, and it comes pre-configured with plenty of goodies like:
 
 - Tailwind CSS setup & configured,
 - Markdown rendering,

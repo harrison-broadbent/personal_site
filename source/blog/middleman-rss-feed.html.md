@@ -1,7 +1,7 @@
 ---
 title: Add an RSS feed to your Middleman blog
 description: Learn how to quickly add an RSS feed to any website built in the Middleman Ruby gem. Plus, copy the RSS feed builder code directly into your own app.
-date: April 17th, 2025
+date: April 16th, 2025
 ---
 
 <details class='bg-stone-100 px-3 py-1 border border-stone-200 rounded-sm italic'>
@@ -38,21 +38,21 @@ posts = blog.articles.sort_by(&:date).reverse
 
 xml.instruct! :xml, version: '1.0', encoding: 'utf-8'
 xml.rss version: "2.0", "xmlns:atom" => "http://www.w3.org/2005/Atom" do
-  xml.channel do
-    xml.title       title
-    xml.link        site_url
-    xml.description desc
-    xml.language    'en-us'
-    xml.lastBuildDate(posts.first.date.to_time.rfc2822) if posts.any?
-    xml.tag!("atom:link", href: "#{site_url}/feed.xml", rel: "self", type: "application/rss+xml")
+ xml.channel do
+ xml.title title
+ xml.link site_url
+ xml.description desc
+ xml.language    'en-us'
+ xml.lastBuildDate(posts.first.date.to_time.rfc2822) if posts.any?
+ xml.tag!("atom:link", href: "#{site_url}/feed.xml", rel: "self", type: "application/rss+xml")
 
-    posts.each do |post|
-      xml.item do
-        xml.guid        "#{site_url}#{post.url}"
-        xml.link        "#{site_url}#{post.url}"
-        xml.title       post.data.title
-        xml.pubDate     post.date.to_time.rfc2822
-        xml.description post.data.description
+ posts.each do |post|
+ xml.item do
+ xml.guid        "#{site_url}#{post.url}"
+ xml.link        "#{site_url}#{post.url}"
+ xml.title post.data.title
+ xml.pubDate post.date.to_time.rfc2822
+ xml.description post.data.description
       end
     end
   end
@@ -64,11 +64,11 @@ This RSS feed is fully compliant and passed the [W3C RSS Feed validator](https:/
 To break down how it works:
 
 - We first grab all the blog posts and store them in `posts`. If you have multiple blogs, you should specify the blog name like `blog("name").articles...`.
-- Next we setup all the metadata for the RSS feed — information on your websites, it's URL etc. We use `xml.tag!` to insert a raw tag for `atom:link` which is needed for compliance to the RSS spec.
-- Finally, we add each blog post into the RSS feed and include a bit of information about them. _This setup assumes each of your blog posts has `title`, `description`, and `date` available in it's frontmatter._
+- Next, we set up all the metadata for the RSS feed — information on your website, its URL etc. We use `xml.tag!` to insert a raw tag for `atom:link` which is needed for compliance with the RSS spec.
+- Finally, we add each blog post to the RSS feed and include a bit of information about them. _This setup assumes each of your blog posts has `title`, `description`, and `date` available in its frontmatter._
 
 ## Conclusion
 
 Thanks for reading!
 
-I hope this helped you add an RSS feed to your Middleman site. Since you're interested in Middleman, you might like my [Middleman blog template](/blog/ruby-middleman-blog). It comes with an RSS feed already setup, alongside Tailwind CSS, code highlighting and more.
+I hope this helped you add an RSS feed to your Middleman site. Since you're interested in Middleman, you might like my [Middleman blog template](/blog/ruby-middleman-blog). It comes with an RSS feed already set up, alongside Tailwind CSS, code highlighting and more.
