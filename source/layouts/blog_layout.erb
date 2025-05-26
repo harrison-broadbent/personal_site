@@ -6,14 +6,14 @@
 %>
 <% wrap_layout :layout do %>
   <div id="prose-content" class="prose">
-    <div class="mb-8 not-prose">
-      <h1 class="mb-4 font-bold text-stone-900 text-4xl md:text-5xl tracking-tight"><%= current_article.title %></h1>
-      <span class="text-stone-400">
-        <a class="after:content-none" href="/blog">&larr; back</a>
-        &nbsp; // &nbsp;
-        Published <%= current_article.data.date %>
+    <div class="not-prose">
+      <span class="flex gap-x-4 md:gap-x-32 md:-ml-[11.5rem] text-stone-400">
+        <a class="no-underline after:content-none" href="/blog">&larr; Back</a>
+        <p class=""><%= current_article.data.date %></p>
       </span>
+      <h1 class="mt-1 font-semibold text-xl"><%= current_article.title %></h1>
     </div>
+    <hr />
     <%= yield %>
   </div>
 <% end %>

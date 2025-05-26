@@ -4,10 +4,14 @@ description: Learn how to use Tailwind CSS in your Chrome Extension for easy sty
 date: February 10 2025
 ---
 
-<details class='italic bg-stone-100 py-1 px-3 rounded-sm border border-stone-200' open><summary>Table of Contents</summary><aside markdown="1">
-* seed list
+<details open>
+<summary>In this article:</summary>
+<aside markdown="1">
+1. seed list
 {:toc}
-</aside></details>
+</aside>
+</details>
+<hr />
 
 Did you know, **there _is_ an easy way to use Tailwind CSS in your Chrome Extension.**
 

@@ -4,13 +4,16 @@ description:
 date: June 6 2024
 ---
 
-> Until recently, I'd been a die-hard Netlify fan. Then, [one of my blog posts](https://dumbph.com/turn-iphone-into-dumb-phone) hit the [frontpage of Hacker News](/blog/hacker-news-traffic-spike-anatomy), Netlify recorded 233Gb of bandwidth usage and sent me a bill for $110, and I started to question things...
-
-<!-- table of contents (html disclosure + kramdown {:toc}) -->
-<details class='italic bg-stone-100 py-1 px-3 rounded-sm border border-stone-200' open><summary>Table of Contents</summary><aside markdown="1">
-* seed list
+<details open>
+<summary>In this article:</summary>
+<aside markdown="1">
+1. seed list
 {:toc}
-</aside></details>
+</aside>
+</details>
+<hr />
+
+> Until June 2024, I was a die-hard Netlify fan. Then, [one of my blog posts](https://dumbph.com/turn-iphone-into-dumb-phone) hit the [frontpage of Hacker News](/blog/hacker-news-traffic-spike-anatomy), Netlify recorded 233Gb of bandwidth usage and sent me a bill for $110, and I started to question things...
 
 ## Introduction
 

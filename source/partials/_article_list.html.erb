@@ -2,18 +2,17 @@
 	group_by_year: true || whether to group by year or just a single list
 
 	example link
-	<%= partial 'partials/article_list', :locals => { group_by_year: false} %>
+	<%= partial 'partials/article_list', :locals => { articles: blog.articles, group_by_year: false} %>
 <%#
  %>
 <% if group_by_year %>
   <% articles_by_year = blog.articles.group_by { |article| article.date.year } %>
   <% articles_by_year.each do |year, articles| %>
-  <h2 class="mt-4"><%= year %></h2>
-  <ul class="pb-8 pl-2 border-b last:border-none">
+  <h2 class="mt-8 mb-3"><%= year %></h2>
+  <ul class="pb-4 pl-0 border-b last:border-none">
     <% articles.each do |article| %>
-      <li class="flex space-x-3">
-        <time class="block font-mono tracking-tight text-nowrap"><%= article.date.strftime('%b %d') %></time>
-        <span>//</span>
+      <li class="flex items-center">
+        <time class="block w-20 text-sm uppercase text-nowrap"><%= article.date.strftime('%b %d') %></time>
         <%= link_to article.title, article.url %>
       </li>
     <% end %>

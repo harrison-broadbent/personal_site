@@ -4,10 +4,14 @@ description: Learn how to build a simple toast notification system using nothing
 date: February 3 2025
 ---
 
-<details class='italic bg-stone-100 py-1 px-3 rounded-sm border border-stone-200' open><summary>Table of Contents</summary><aside markdown="1">
-* seed list
+<details open>
+<summary>In this article:</summary>
+<aside markdown="1">
+1. seed list
 {:toc}
-</aside></details>
+</aside>
+</details>
+<hr />
 
 **This article explains how I added toast messages to my side-project, [Tailcolors](https://tailcolors.com), with nothing but vanilla Javascript & CSS. I've also included some examples.**
 
@@ -111,5 +115,7 @@ Here's another short example:
 ![another example of toast notifications with native js and css](images/blog/native-js-toast-notifications/toast2.gif) _Another short example of building toast notifications with vanilla Javascript._
 
 If you want to see a live example of these toast message, head to the [Tailcolors Rose Color Page](https://tailcolors.com/rose) — a toast message appears after you click on a color or gradient to copy it.
+
+If you enjoyed this, you'll probably also like my article on [tooltips with plain HTML & Tailwind CSS](blog/native-tailwind-tooltip).
 
 Thanks for reading!

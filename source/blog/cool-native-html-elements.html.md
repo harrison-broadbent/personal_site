@@ -4,10 +4,14 @@ description: Learn how to use native HTML to implement features like modals & ac
 date: March 6th, 2025
 ---
 
-<details class='italic bg-stone-100 py-1 px-3 rounded-sm border border-stone-200'><summary>Table of Contents</summary><aside markdown="1">
-* seed list
+<details open>
+<summary>In this article:</summary>
+<aside markdown="1">
+1. seed list
 {:toc}
-</aside></details>
+</aside>
+</details>
+<hr />
 
 **I'm constantly surprised by the native HTML spec.** New features are regularly added, and I often stumble on existing, handy elements. While often not as versatile as their JS counterparts, using them avoids bloating your app with extra Javascript libraries or CSS hacks.
 

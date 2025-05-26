@@ -4,13 +4,14 @@ description: Learn how to create a star rating input using plain HTML and Tailwi
 date: April 17th, 2025
 ---
 
-<details class='bg-stone-100 px-3 py-1 border border-stone-200 rounded-sm italic'>
-<summary>Table of Contents</summary>
+<details open>
+<summary>In this article:</summary>
 <aside markdown="1">
-* seed list
+1. seed list
 {:toc}
 </aside>
 </details>
+<hr />
 
 One of my greatest joys is hacking around with Tailwind CSS, and using it to build things that feel like they _should_ need Javascript, with just plain HTML and CSS.
 

@@ -8,6 +8,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        // serif: ["Georgia", "serif"],
+        // serif: ["Playfair Display", "serif"],
+        serif: ["'Source Serif 4'", "serif"],
         display: ["DM Sans", "sans-serif"],
         mono: ["JetBrains Mono", "mono"],
       },

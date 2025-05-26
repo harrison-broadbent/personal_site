@@ -4,11 +4,14 @@ description: A breakdown of a HN traffic spike which drove 15k+ visitors to my b
 date: May 27 2024
 ---
 
-<!-- table of contents (html disclosure + kramdown {:toc}) -->
-<details class='italic bg-stone-100 py-1 px-3 rounded-sm border border-stone-200' open><summary>Table of Contents</summary><aside markdown="1">
-* seed list
+<details open>
+<summary>In this article:</summary>
+<aside markdown="1">
+1. seed list
 {:toc}
-</aside></details>
+</aside>
+</details>
+<hr />
 
 You've probably heard about the [HN hug-of-death](https://news.ycombinator.com/item?id=35649785), and you know that [hitting the front page of hackernews](https://news.ycombinator.com/item?id=35929794) is a BigDeal™.
 
@@ -42,7 +45,7 @@ Traffic could have been closer to 20k and 24k respectively (or higher, even, if 
 
 Honestly, the final numbers are pretty meaningless beyond satisfying my curiosity, but 15k is very much the lower bound here, not the final value. I've also broken down the hourly traffic below &darr;
 
-### > Traffic breakdown chart
+### Traffic breakdown chart
 
 Here's the hourly traffic from Hacker News, plotted and annotated:
 
@@ -64,7 +67,7 @@ Traffic is exciting! It gets the dopamine pulsing, but it's a sugar hit, a one-o
 
 I noticed a couple of longer-term / unexpected effects following the HN spike —
 
-### > New backlinks
+### New backlinks
 
 **This traffic spike brought in 150+ new backlinks to my [blog](https://dumbph.com) from various aggregator sites.**
 
@@ -72,7 +75,7 @@ There are _hundreds_ of sites that scrape or aggregate content from Hacker News,
 
 I'm interested to see how many of these backlinks stick around since many will fade away as my article drops off these aggregators. I'm expecting some lingering effects, although given that most of the links are relatively low-quality, I'm not sure how strong those effects will be.
 
-### > Second-order social media posts (Reddit, Twitter)
+### Second-order social media posts (Reddit, Twitter)
 
 Following the traffic on HN, a few tweets and Reddit posts popped up to re-share either the content itself, or the HN thread. I've counted 20 different tweets, and at least two [Reddit](https://www.reddit.com/r/hackernews/comments/1d0yw1i/turn_your_iphone_into_a_dumb_phone) [posts](https://www.reddit.com/r/hypeurls/comments/1d0xei3/turn_your_iphone_into_a_dumb_phone):
 
@@ -80,7 +83,7 @@ Following the traffic on HN, a few tweets and Reddit posts popped up to re-share
 
 Exciting numbers, but the actual traffic results were pretty minimal — around `100` pageviews can be attributed to Twitter and another `25` from Reddit.
 
-### > Bandwidth (over)usage
+### Bandwidth (over)usage
 
 The image says it all really — **this traffic spike blew through `~233 GB` of Netlify bandwidth over 24 hours:**
 
@@ -94,7 +97,7 @@ Given some of the recent [horror stories](https://news.ycombinator.com/item?id=3
 
 > Note: We can use these bandwidth figures to try and infer traffic. `233 GB / 8 MB = ~30k`, potentially giving us a better idea of the true traffic numbers from this spike.
 
-### > A friendly email
+### A friendly email
 
 Despite the traffic, [_maybe the real treasure was the friends we made along the way_](https://knowyourmeme.com/memes/maybe-the-real-treasure-was-the-friends-we-made-along-the-way). The morning after submitting my article, I woke up to a lovely email from [Jay Olsen](https://www.jayolson.org/), a researcher in the field of smartphone addiction.
 

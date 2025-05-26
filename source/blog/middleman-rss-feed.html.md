@@ -4,13 +4,14 @@ description: Learn how to quickly add an RSS feed to any website built in the Mi
 date: April 16th, 2025
 ---
 
-<details class='bg-stone-100 px-3 py-1 border border-stone-200 rounded-sm italic'>
-<summary>Table of Contents</summary>
+<details open>
+<summary>In this article:</summary>
 <aside markdown="1">
-* seed list
+1. seed list
 {:toc}
 </aside>
 </details>
+<hr />
 
 **You're probably trying to add an RSS feed to your Middleman website.** Unfortunately, Middleman doesn't ship with an RSS feed, nor are there any all-in-one gems to easily add one.
 

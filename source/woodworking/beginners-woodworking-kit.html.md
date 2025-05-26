@@ -5,9 +5,19 @@ date: 2024-04-25 20:29
 
 # A beginners woodworking tool kit (using Ryobi tools)
 
+<hr />
+<details open>
+<summary>In this article:</summary>
+<aside markdown="1">
+1. seed list
+{:toc}
+</aside>
+</details>
+<hr />
+
 Here's a breakdown of the tools I bought to kick-start my woodworking toolkit.
 
-I've broken down the tools I purchased upfront to give you an idea of a pretty baseline setup. I'm also planning on coming back to this article occasionally to give any updates on a certain part or tool —
+I've broken down my tool purchases to give you an idea of a baseline setup. I'm also planning on coming back to this article occasionally to give any updates on a certain part or tool —
 
 | Name                                                                | Purpose                                                                                                                                                                                                                                                                              | Price (AUD) |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |

@@ -4,15 +4,18 @@ description: Learn how to redirect a www. URL to the non-www URL within Cloudfla
 date: November 16 2024
 ---
 
+<details open>
+<summary>In this article:</summary>
+<aside markdown="1">
+1. seed list
+{:toc}
+</aside>
+</details>
+<hr />
+
 > Q: How do you redirect a www. URL to the non-www URL within Cloudflare?
 > A: With a custom Redirect Rule!
 > Cloudflare now supports using Redirect Rules to map a www. request to your root domain; This article walks you through setting one up.
-
-<!-- table of contents (html disclosure + kramdown {:toc}) -->
-<details class='italic bg-stone-100 py-1 px-3 rounded-sm border border-stone-200' open><summary>Table of Contents</summary><aside markdown="1">
-* seed list
-{:toc}
-</aside></details>
 
 ## Introduction
 

@@ -4,14 +4,6 @@ description: Sharing my Ruby, Middleman and Tailwind CSS blog template. It's an 
 date: April 17th, 2025
 ---
 
-<details class='bg-stone-100 px-3 py-1 border border-stone-200 rounded-sm italic'>
-<summary>Table of Contents</summary>
-<aside markdown="1">
-* seed list
-{:toc}
-</aside>
-</details>
-
 You probably haven't heard of [Middleman](https://middlemanapp.com), a Ruby static site generator.
 
 Middleman is a static site generator built atop Ruby, plain ERB templating, and Markdown content files. It compiles down to static assets which you can host for free using something like [Cloudflare Pages](https://pages.cloudflare.com/).
