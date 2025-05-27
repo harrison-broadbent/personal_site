@@ -1,6 +1,6 @@
 ---
 title: A tooltip with plain HTML & Tailwind CSS
-description:
+description: Learn how to build tooltips with nothing but plain HTML & Tailwind CSS. They work great and avoid an extra Javascript dependency. Plus, learn how the new CSS anchor API will make these tooltips even better once it's more widespread.
 date: May 25th, 2025
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Goodbye Netlify, Hello Cloudflare.
-description:
+description: Learn why I switched from Netlify to Cloudflare for my hosting, after years of happy usage.
 date: June 6 2024
 ---
 
