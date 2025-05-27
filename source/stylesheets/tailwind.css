@@ -1610,6 +1610,10 @@ video {
   font-family: Inter var, sans-serif;
 }
 
+.font-mono{
+  font-family: JetBrains Mono, mono;
+}
+
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;

@@ -198,3 +198,5 @@ This makes it easy to test out each font. Once you've decided on a few to keep, 
   @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
 </style>
+
+I've written separately about [how to import custom fonts into Tailwind CSS](/blog/tailwind-custom-fonts), which you might find handy.
