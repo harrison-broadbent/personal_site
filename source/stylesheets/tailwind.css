@@ -1606,12 +1606,12 @@ video {
   text-align: right;
 }
 
-.font-sans{
-  font-family: Inter var, sans-serif;
-}
-
 .font-mono{
   font-family: JetBrains Mono, mono;
+}
+
+.font-sans{
+  font-family: Inter var, sans-serif;
 }
 
 .text-3xl{
