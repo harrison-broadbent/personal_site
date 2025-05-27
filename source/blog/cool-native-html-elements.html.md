@@ -237,25 +237,6 @@ You can learn more about styling the `<progress>` element with Tailwind CSS from
 
 [MDN Docs (progress)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress) &nbsp; // &nbsp; [Caniuse (97%)](https://caniuse.com/?search=progress)
 
-<!-- ## Native HTML tooltips (`title`)
-
-Here's an example — <span class="font-medium text-stone-950 underline decoration-dotted cursor-help" title="A native tooltip!">[ hover over me ]</span>
-
-Like so:
-
-```html
-<span title="A native tooltip!">[ hover over me ]</span>
-```
-
-There are some major downsides to using these native HTML tooltips though:
-
-- No styling control:
-- No control over hover delay:
-- No control over tooltip position:
-- Poor mobile support:
-
-The `title` property certainly suffers from a lack of customization options. Even just having a shorter delay before the message appears would be a huge boost to the usefulness of this parameter, but unfortunately, most browsers have a long default delay before the message displays. -->
-
 ## Searchable dropdowns and grouped lists (`datalist` and `optgroup`)
 
 You can enhance the basic HTML list input to make it searchable or grouped with the `<datalist>` and `<optgroup>` elements.
@@ -372,6 +353,21 @@ Here's an example:
 <hr />
 
 [MDN Docs (figcaption)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption) &nbsp; // &nbsp; [Caniuse (96%)](https://caniuse.com/?search=figcaption)
+
+## Tooltips
+
+I've written separately about [building tooltips with native HTML & Tailwind CSS](blog/native-tailwind-tooltip), so I wont repeat myself here.
+
+Here's a quick example though, without Javascript:
+
+<div class="relative my-8 w-fit not-prose mx-auto">
+  <p class="peer decoration-dotted underline underline-offset-2 cursor-help font-medium">>>> Hover over me <<<</p>
+  <span class="bottom-full left-1/2 absolute bg-stone-800 opacity-0 peer-hover:opacity-100 px-2 py-1 rounded-md w-max text-stone-50 text-xs transition-all -translate-x-1/2 -translate-y-0.5 peer-hover:-translate-y-1">
+    I'm a tooltip, built with plain HTML & Tailwind CSS
+  </span>
+</div>
+
+I cannot emphasize how much this improves on the classic [HTML title 'tooltip' hack](https://stackoverflow.com/questions/43089766/is-html-title-attribute-a-toolip) people commonly fallback to.
 
 ## Conclusion
 
