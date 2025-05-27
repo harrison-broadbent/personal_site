@@ -1,6 +1,6 @@
 ---
-title: Custom fonts in Tailwind CSS v4 (and v3)
-description: I got sick of digging around Google Fonts, so I compiled this list of my favorite SaaS fonts. It includes 7 all-time classics, plus two bonus fonts. There's a font for every SaaS in this article.
+title: Custom fonts in Tailwind v4 (and v3)
+description: Learn how to add custom fonts to Tailwind CSS v4 (and v3). In Tailwind 4, you use the @theme directive and "--font" variables to load custom fonts after initializing Tailwind.
 date: May 27th, 2025
 ---
 
