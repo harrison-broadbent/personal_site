@@ -159,7 +159,7 @@ You know Inter. I know Inter. It's clean and simple (it's what I use for this si
 ### JetBrains Mono
 
 <div style="font-family: 'JetBrains Mono';">
-JetBrains Mono (yes, from <a href="https://www.jetbrains.com/lp/mono/">that JetBrains</a>) is an excellent monospaced font, perfect for displaying data or code-related information.
+JetBrains Mono (yes, from <a href="https://www.jetbrains.com/lp/mono/">that JetBrains</a>) is an excellent monospaced font, perfect for displaying data or code.
 
 <p class="my-4 text-3xl not-prose font-semibold tracking-tight text-center">JetBrains Mono, a SaaS font worth trying.</p>
 
