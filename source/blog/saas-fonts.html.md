@@ -17,7 +17,7 @@ I'm constantly [building side-projects](/now). So what does every side project n
 
 (Your latest SaaS also needs users, but... fonts are fun 😅)
 
-I got sick of digging around [Google Fonts](https://fonts.google.com) for fonts I liked, so I dug around and compiled this list of my favorite SaaS fonts.
+I got sick of hunting around [Google Fonts](https://fonts.google.com) for fonts I liked, so I've compiled this list of my favorite SaaS fonts.
 
 These fonts are great for landing pages, particularly headings. I'm sure they'd also work well for body text under the right conditions, but I'm typically far less adventurous there and just stick with [Inter](https://fonts.google.com/specimen/Inter) (or even `ui-sans-serif`).
 
