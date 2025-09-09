@@ -8,7 +8,7 @@ Hey, my name's Harrison. I live in Melbourne, Australia 🇦🇺
 
 By day, I work as a Software Engineer at [HotDoc](https://hotdoc.com.au), Australia's largest medical bookings platform. Prior to this, I built payment systems at an Indonesian tech unicorn, and blended software engineering with device manufacturing at a local MedTech startup.
 
-By night, you'll find me working on a [new side-project](https://attendlist.com), writing on my [blog](blog), or enjoying my hobbies: [reading](reading), [electronics](electronics), [sourdough baking](sourdough), [running](/running) and camping.
+By night, you'll find me working on new [side](https://attendlist.com) [projects](https://pariparrot.com), writing on my [blog](blog), or enjoying my hobbies: [reading](reading), [electronics](electronics), [sourdough baking](sourdough), [running](/running) and camping.
 
 Learn more about what I'm doing at [/now](/now.html).
 

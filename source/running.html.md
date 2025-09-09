@@ -8,8 +8,9 @@ I run quite a bit. This page compiles some of my general, 5k-specific and marath
 
 My current PBs are:
 
-- **5k:** 17:33 (2024 target: sub-17:30)
-- **Marathon:** 3:06:08 (2024 target: sub-3hrs)
+- **5k:** 17:33 (2025)
+- **Half marathon:** 1:22:40 (2025)
+- **Marathon:** 3:06:08 (2023)
 
 ## General Running Tips
 
