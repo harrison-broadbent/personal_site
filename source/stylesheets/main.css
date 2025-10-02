@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 a {
-  @apply hover:text-orange-500 underline-offset-2 after:content-['_↗'];
+  @apply hover:text-orange-500 underline-offset-2;
 }
 
 #prose-content {
