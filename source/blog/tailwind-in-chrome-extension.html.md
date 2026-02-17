@@ -19,7 +19,7 @@ I use [Tailwind CSS](https://tailwindcss.com/) extensively, and it's a great cho
 
 There's a trick though — **just use the TailwindCSS CDN package.**
 
-Getting Tailwind CSS to play nicely with a Chrome Extension is tricky since, unless you use a framework like like [WXT](https://wxt.dev/) with a build step, your extension is typically just static assets. There's no underlying system or server for Tailwind to plug into. Using the CDN script locally sidesteps these issues!
+Getting Tailwind CSS to play nicely with a Chrome Extension is tricky since, unless you use a framework like [WXT](https://wxt.dev/) with a build step, your extension is typically just static assets. There's no underlying system or server for Tailwind to plug into. Using the CDN script locally sidesteps these issues!
 
 By using the Tailwind CDN package, you avoid any build-related hassle (the package handles it all). Additionally, importing it as a _local_ script is crucial since the `v3` extension manifest forbids loading external `<script>` resources.
 
