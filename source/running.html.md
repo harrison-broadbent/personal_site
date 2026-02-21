@@ -10,7 +10,7 @@ My current PBs are:
 
 - **5k:** 17:33 (2025)
 - **Half marathon:** 1:22:40 (2025)
-- **Marathon:** 3:06:08 (2023)
+- **Marathon:** 3:01:01 (2025)
 
 ## General Running Tips
 

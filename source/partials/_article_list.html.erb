@@ -9,10 +9,10 @@
   <% articles_by_year = blog.articles.group_by { |article| article.date.year } %>
   <% articles_by_year.each do |year, articles| %>
   <h2 class="mt-8 mb-3"><%= year %></h2>
-  <ul class="pb-4 pl-0 border-b last:border-none">
+  <ul class="pb-4 pl-0 border-stone-200 border-b last:border-none">
     <% articles.each do |article| %>
       <li class="flex items-center">
-        <time class="block w-20 shrink-0 text-sm uppercase text-nowrap"><%= article.date.strftime('%b %d') %></time>
+        <time class="block w-20 text-sm uppercase text-nowrap shrink-0"><%= article.date.strftime('%b %d') %></time>
         <%= link_to article.title, article.url %>
       </li>
     <% end %>
@@ -22,7 +22,7 @@
   <ul>
     <% blog.articles.each do |article| %>
       <li class="flex items-center">
-        <time class="block w-20 shrink-0 text-sm uppercase"><%= article.date.strftime('%b %d %Y') %></time>
+        <time class="block w-20 text-sm uppercase shrink-0"><%= article.date.strftime('%b %d %Y') %></time>
         <%= link_to article.title, article.url %>
       </li>
     <% end %>
