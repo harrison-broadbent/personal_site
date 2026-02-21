@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
 
 a {
   @apply hover:text-orange-500 underline-offset-2;
@@ -34,7 +33,7 @@ summary {
 
 summary + aside {
   @apply ml-4;
-  @apply prose-a:!font-normal hover:prose-a:!text-orange-500 prose-a:!text-stone-500 prose-a:!no-underline prose-a:after:content-[''];
+  @apply prose-a:!font-normal prose-a:!text-stone-500 prose-a:hover:!text-orange-500 prose-a:!no-underline prose-a:after:content-[''];
 }
 
 summary + aside ol {
@@ -63,7 +62,7 @@ summary + aside li {
 }
 .prose p code,
 .prose li code {
-  @apply bg-stone-300/80 px-2 py-1 rounded-md font-bold text-black;
+  @apply bg-stone-200/80 px-1.5 py-0.5 rounded-md font-medium text-stone-950;
 }
 
 .prose blockquote ::before {
