@@ -1,6 +1,6 @@
 ---
 title: New Tailwind v4.2 colors now in Tailcolors
-description: Learn how to add custom fonts to Tailwind CSS v4 (and v3). In Tailwind 4, you use the @theme directive and "--font" variables to load custom fonts after initializing Tailwind.
+description: With Tailwind v4.2 introducing 4 new color palettes, I've gone ahead and updated Tailcolors, my tailwind color palette tool, to support them.
 date: Feb 22nd, 2026
 ---
 
