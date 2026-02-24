@@ -20,3 +20,5 @@ To go along with these 4 new Tailwind colors, I've updated [Tailcolors, my Tailw
 You can view all shades of these new colors (from `*-50` to `*-950`), plus preview them in the context of mock ui examples. For example, heres's [ui examples for the new olive color](https://tailcolors.com/olive).
 
 > I'll also be updating my [TailwindCSS color palette Chrome Extension](https://chromewebstore.google.com/detail/tailcolors-tailwind-css-c/agjdmlmepbilagimjkmffoinkoackego) to support the new colors, so keep an eye out for that!
+>
+> Update: As of Feb 25 2026, the Tailcolors Chrome Extension now supports all v4.2 colors.
