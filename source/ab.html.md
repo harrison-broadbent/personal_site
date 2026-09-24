@@ -3,11 +3,11 @@ title: A/B Testing calculator
 description: Calculate sample sizes, expected samples and non-inferior thresholds for A/B tests. Also supports 1-sided and 2-sided sample estimates.
 ---
 
-<main class="mx-auto max-w-5xl px-6 py-10">
+<main class="mx-auto max-w-5xl px-6">
   <header class="pb-8">
     <h1 class="text-3xl font-semibold  text-stone-950">A/B testing sample calculator</h1>
     <p class="mt-3 max-w-3xl text-base  text-stone-500">
-      A handy little calculator I threw together to — given your current experiment data — calculate your conversion rate, a Bayesian decision view and an estimate of how much more traffic you need to reach a confident decision.
+      A handy little calculator to — given your current experiment data — calculate your conversion rate, plus a decision view & estimate of extra traffic required to reach a confident decision.
     </p>
     <div class="mt-8 border-t border-stone-200"></div>
   </header>
@@ -18,7 +18,7 @@ description: Calculate sample sizes, expected samples and non-inferior threshold
 
     <div class="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
       <div class="min-w-0 pr-0 lg:border-r lg:border-stone-200 lg:pr-8">
-        <div class="mt-12 grid min-w-0 grid-cols-[92px_minmax(0,1fr)_minmax(0,1fr)] items-center gap-x-3 gap-y-6 ">
+        <div class="mt-18 grid min-w-0 grid-cols-[92px_minmax(0,1fr)_minmax(0,1fr)] items-center gap-x-3 gap-y-6 ">
           <div></div>
           <div class="text-center text-base text-stone-500">Visitors</div>
           <div class="text-center text-base text-stone-500">Conversions</div>
@@ -33,14 +33,14 @@ description: Calculate sample sizes, expected samples and non-inferior threshold
         </div>
       </div>
 
-      <div class="min-w-0 space-y-8">
-        <div>
+      <div class="min-w-0 space-y-8 divide-y divide-stone-200">
+        <div class="pb-8">
           <div class="flex items-center justify-between gap-4">
-            <label for="marginRange" class="text-sm font-medium  text-stone-700">Non-inferiority margin (abs %)</label>
-            <input id="marginInput" type="text" value="1" readonly class="h-10 w-24 border border-stone-300 bg-white px-2 text-center text-lg font-medium text-stone-950 outline-none" />
+            <label for="marginRange" class="text-sm font-medium  text-stone-700">Non-inferiority margin</label>
+            <input id="marginInput" type="text" value="1" readonly class="h-10 w-16  bg-stone-200 rounded-md px-2 text-center text-lg font-medium text-stone-950 outline-none" />
           </div>
           <div class="mt-2">
-            <input id="marginRange" type="range" min="0" max="3" step="1" value="2" list="marginTicks" class="h-5 w-full appearance-none bg-transparent [&::-webkit-slider-runnable-track]:h-1 [&::-webkit-slider-runnable-track]:rounded-none [&::-webkit-slider-runnable-track]:bg-stone-200 [&::-webkit-slider-thumb]:-mt-1.5 [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-0 [&::-webkit-slider-thumb]:bg-stone-600 [&::-webkit-slider-thumb]:shadow-none [&::-webkit-slider-thumb]:cursor-pointer [&::-moz-range-track]:h-1 [&::-moz-range-track]:rounded-none [&::-moz-range-track]:bg-stone-200 [&::-moz-range-thumb]:size-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border-0 [&::-moz-range-thumb]:bg-stone-600 [&::-moz-range-thumb]:shadow-none [&::-moz-range-thumb]:cursor-pointer" />
+            <input id="marginRange" type="range" min="0" max="3" step="1" value="0" list="marginTicks" class="h-5 w-full appearance-none bg-transparent [&::-webkit-slider-runnable-track]:h-1 [&::-webkit-slider-runnable-track]:rounded-none [&::-webkit-slider-runnable-track]:bg-stone-200 [&::-webkit-slider-thumb]:-mt-1.5 [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-0 [&::-webkit-slider-thumb]:bg-stone-600 [&::-webkit-slider-thumb]:shadow-none [&::-webkit-slider-thumb]:cursor-pointer [&::-moz-range-track]:h-1 [&::-moz-range-track]:rounded-none [&::-moz-range-track]:bg-stone-200 [&::-moz-range-thumb]:size-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border-0 [&::-moz-range-thumb]:bg-stone-600 [&::-moz-range-thumb]:shadow-none [&::-moz-range-thumb]:cursor-pointer" />
             <datalist id="marginTicks">
               <option value="0" label="0%"></option>
               <option value="1" label="0.5%"></option>
@@ -60,13 +60,13 @@ description: Calculate sample sizes, expected samples and non-inferior threshold
               <span class="absolute top-2 whitespace-nowrap -translate-x-full left-full">2%</span>
             </div>
           </div>
-          <p class="mt-2 text-sm  text-stone-500">Maximum acceptable drop in conversion rate.</p>
+          <p class="mt-2 text-sm  text-stone-500">Maximum acceptable drop in conversion rate (abs).</p>
         </div>
 
         <div>
           <div class="flex items-center justify-between gap-4">
             <label for="thresholdRange" class="text-sm font-medium  text-stone-700">Decision threshold</label>
-            <input id="thresholdInput" type="text" value="95" readonly class="h-10 w-24 border border-stone-300 bg-white px-2 text-center text-lg font-medium text-stone-950 outline-none" />
+            <input id="thresholdInput" type="text" value="95" readonly class="h-10 w-16 bg-stone-200 rounded-md px-2 text-center text-lg font-medium text-stone-950 outline-none" />
           </div>
           <div class="mt-2">
             <input id="thresholdRange" type="range" min="0" max="3" step="1" value="2" list="thresholdTicks" class="h-5 w-full appearance-none bg-transparent [&::-webkit-slider-runnable-track]:h-1 [&::-webkit-slider-runnable-track]:rounded-none [&::-webkit-slider-runnable-track]:bg-stone-200 [&::-webkit-slider-thumb]:-mt-1.5 [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-0 [&::-webkit-slider-thumb]:bg-stone-600 [&::-webkit-slider-thumb]:shadow-none [&::-webkit-slider-thumb]:cursor-pointer [&::-moz-range-track]:h-1 [&::-moz-range-track]:rounded-none [&::-moz-range-track]:bg-stone-200 [&::-moz-range-thumb]:size-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border-0 [&::-moz-range-thumb]:bg-stone-600 [&::-moz-range-thumb]:shadow-none [&::-moz-range-thumb]:cursor-pointer" />
@@ -96,7 +96,7 @@ description: Calculate sample sizes, expected samples and non-inferior threshold
 
   </section>
 
-  <section class="mt-12">
+  <section class="mt-8">
     <h2 class="text-xl font-semibold  text-stone-950">Current results</h2>
 
     <div
@@ -536,7 +536,7 @@ description: Calculate sample sizes, expected samples and non-inferior threshold
       updateTimer = window.setTimeout(updateAll, 80);
     }
 
-    syncMappedRange($("marginRange"), $("marginInput"), MARGIN_VALUES, "");
+    syncMappedRange($("marginRange"), $("marginInput"), MARGIN_VALUES, "%");
     syncMappedRange($("thresholdRange"), $("thresholdInput"), THRESHOLD_VALUES, "%");
 
     document.querySelectorAll("input, select").forEach(element => {
