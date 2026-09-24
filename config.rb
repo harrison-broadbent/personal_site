@@ -3,6 +3,7 @@
 set :site_url, "https://harrisonbroadbent.com"
 set :site_title, "Harrison Broadbent" # site title for <title> meta tag
 set :menu_pages, {
+      "A/B" => "/ab",
       About: "/about",
       Now: "/now",
       Blog: "/blog",
